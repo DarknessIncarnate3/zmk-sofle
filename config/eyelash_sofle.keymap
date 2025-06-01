@@ -292,21 +292,21 @@
 
         layer_function {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &z2layer 6 0
             >;
         };
 
         layer_ql {
             bindings = <
-&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none       &none
-&none  &none      &none         &none      &kp LS(POUND)  &none    &none  &none  &kp BSLH       &none         &none         &none       &none
-&none  &kp MINUS  &kp LS(PLUS)  &kp EQUAL  &kp LS(PRCNT)  &none    &none  &none  &kp LS(QMARK)  &kp LS(EXCL)  &kp LS(DLLR)  &kp LS(AT)  &kp N2
-&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none       &none
-&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none
+&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none         &none
+&none  &none      &none         &none      &kp LS(POUND)  &none    &none  &none  &kp BSLH       &none         &none         &none         &none
+&none  &kp MINUS  &kp LS(PLUS)  &kp EQUAL  &kp LS(PRCNT)  &none    &none  &none  &kp LS(QMARK)  &kp LS(EXCL)  &kp LS(DLLR)  &kp LS(AT)    &kp N2
+&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none         &none
+&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &z2layer 6 0
             >;
         };
     };
