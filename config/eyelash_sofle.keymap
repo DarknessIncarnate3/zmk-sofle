@@ -246,11 +246,11 @@
 
         layer_nav {
             bindings = <
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp PG_DN  &kp PG_UP  &trans     &trans
-&kp TAB  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp TAB   &kp RET    &kp ESC    &kp BSPC   &kp DEL
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp RET
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans     &trans     &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans     &trans     &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &kp PG_DN          &kp PG_UP         &trans            &trans
+&kp TAB  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mmv MOVE_LEFT     &mmv MOVE_DOWN     &mmv MOVE_UP      &mmv MOVE_RIGHT   &kp DEL
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT           &kp DOWN           &kp UP            &kp RIGHT         &kp RET
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(-400)  &mmv MOVE_Y(400)  &mmv MOVE_X(400)  &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans             &trans            &trans
             >;
         };
 
