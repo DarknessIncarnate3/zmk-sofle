@@ -268,11 +268,11 @@
 
         layer_fn {
             bindings = <
-&none  &none  &none         &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
-&none  &none  &bt BT_SEL 0  &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
-&none  &none  &none         &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
-&none  &none  &none         &none  &none  &none    &none  &none  &none  &none  &none  &none         &none
-&none  &none  &none         &none  &none  &none    &none  &none  &none  &none  &to 3  &z2layer 6 0
+&none  &none  &none         &none  &none  &none       &none  &none  &none  &none  &none  &none         &none
+&none  &none  &bt BT_SEL 0  &kp A  &kp A  &none       &none  &none  &none  &none  &none  &none         &none
+&none  &none  &kp A         &kp A  &kp A  &none       &none  &none  &none  &none  &none  &none         &none
+&none  &none  &kp A         &kp A  &kp A  &yOutput    &none  &none  &none  &none  &none  &none         &none
+&none  &none  &none         &none  &none  &none       &none  &none  &none  &none  &to 3  &z2layer 6 0
             >;
         };
 
