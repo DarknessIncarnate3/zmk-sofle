@@ -186,11 +186,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE   &kp N1     &kp N2          &kp N3                          &kp N4          &kp N5    &kp UP_ARROW     &kp N6               &kp N7     &kp N8            &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W           &kp F                           &kp P           &kp G     &kp DOWN_ARROW   &kp J                &kp L      &kp U             &kp Y            &kp SEMI    &kp BSLH
-&kp CAPS    &kp A      &kp R           &kp S                           &kp T           &kp D     &kp LEFT_ARROW   &kp H                &kp N      &kp E             &kp I            &kp O       &kp APOS
-&kp LSHFT   &kp Z      &kp X           &kp C                           &kp V           &kp B     &kp RIGHT_ARROW  &kp K                &kp M      &kp COMMA         &kp DOT          &kp FSLH    &stickylayer 6 6
-&kp C_MUTE  &kp LCTRL  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab     &kp ENTER        &zFastLayer 4 ENTER  &kp SPACE  &stickylayer 5 4  &kp RIGHT_SHIFT  &kp DELETE
+&kp GRAVE   &kp N1     &kp N2          &kp N3                          &kp N4          &kp N5    &mmv MOVE_Y(-400)  &kp N6               &kp N7     &kp N8            &kp N9           &kp N0      &kp BACKSPACE
+&kp TAB     &kp Q      &kp W           &kp F                           &kp P           &kp G     &mmv MOVE_Y(400)   &kp J                &kp L      &kp U             &kp Y            &kp SEMI    &kp BSLH
+&kp CAPS    &kp A      &kp R           &kp S                           &kp T           &kp D     &mmv MOVE_X(-400)  &kp H                &kp N      &kp E             &kp I            &kp O       &kp APOS
+&kp LSHFT   &kp Z      &kp X           &kp C                           &kp V           &kp B     &mmv MOVE_X(400)   &kp K                &kp M      &kp COMMA         &kp DOT          &kp FSLH    &stickylayer 6 6
+&kp C_MUTE  &kp LCTRL  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab     &none              &zFastLayer 4 ENTER  &kp SPACE  &stickylayer 5 4  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -236,11 +236,11 @@
 
         layer_sym {
             bindings = <
-&none  &none         &none           &none                           &none      &kp MINUS                     &none  &none      &kp LESS_THAN         &kp GREATER_THAN       &none          &none         &none
-&none  &kp GRAVE     &kp N1          &kp N2                          &kp N3     &kp STAR                      &none  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp AT_SIGN   &none
-&none  &kp N0        &kp N4          &kp N5                          &kp N6     &kp LS(PLUS)                  &none  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND      &kp DOLLAR    &none
-&none  &none         &kp N7          &kp N8                          &kp N9     &kp FSLH                      &none  &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL      &kp QUESTION  &none
-&none  &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFast_Mod LEFT_META ENTER    &none  &kp ENTER  &kp LEFT_SHIFT        &stickylayer 0 0       &none          &to 0
+&kp  &kp F1        &kp F2          &kp F3                          &kp F4     &kp F5                        &kp  &kp F6     &kp F7                &kp F8                 &kp F9         &kp F10       &kp
+&kp  &kp GRAVE     &kp N1          &kp N2                          &kp N3     &kp STAR                      &kp  &kp        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp AT_SIGN   &kp
+&kp  &kp N0        &kp N4          &kp N5                          &kp N6     &kp LS(PLUS)                  &kp  &kp        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND      &kp DOLLAR    &kp
+&kp  &kp           &kp N7          &kp N8                          &kp N9     &kp FSLH                      &kp  &kp        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL      &kp QUESTION  &kp
+&kp  &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFast_Mod LEFT_META ENTER    &kp  &kp ENTER  &kp LEFT_SHIFT        &stickylayer 0 0       &kp            &to 0
             >;
         };
 
