@@ -246,11 +246,11 @@
 
         layer_nav {
             bindings = <
-&none      &none      &none   &none   &none           &none          &mmv MOVE_Y(-400)  &none             &mkp LCLK          &mkp RCLK         &mkp MB3           &none             &kp BACKSPACE
-&kp TAB    &kp COMMA  &kp N1  &kp N2  &kp N3          &kp PERCENT    &mmv MOVE_Y(400)   &msc MOVE_Y(-10)  &mmv MOVE_X(-400)  &mmv MOVE_X(400)  &mmv MOVE_X(-400)  &mmv MOVE_X(400)  &kp DEL
-&kp EQUAL  &kp N0     &kp N4  &kp N5  &kp N6          &kp DOLLAR     &mmv MOVE_X(-400)  &msc MOVE_Y(10)   &kp LEFT           &kp DOWN          &kp UP             &kp RIGHT         &kp RET
-&none      &kp DOT    &kp N7  &kp N8  &kp N9          &kp V          &mmv MOVE_X(400)   &none             &kp PG_DN          &kp END           &kp HOME           &kp PG_UP         &none
-&none      &none      &none   &none   &xShiftonSpace  &xEntertab     &mkp LCLK          &none             &none              &none             &none              &none
+&none      &none              &none             &none              &none             &none          &mmv MOVE_Y(-400)  &none             &mkp LCLK          &mkp RCLK         &mkp MB3           &none             &kp BACKSPACE
+&kp TAB    &kp COMMA          &kp N1            &kp N2             &kp N3            &kp PERCENT    &mmv MOVE_Y(400)   &msc MOVE_Y(-10)  &mmv MOVE_X(-400)  &mmv MOVE_X(400)  &mmv MOVE_X(-400)  &mmv MOVE_X(400)  &kp DEL
+&kp EQUAL  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)  &mmv MOVE_Y(-400)  &mmv MOVE_X(400)  &kp DOLLAR     &mmv MOVE_X(-400)  &msc MOVE_Y(10)   &kp LEFT           &kp DOWN          &kp UP             &kp RIGHT         &kp RET
+&none      &kp DOT            &kp N7            &kp N8             &kp N9            &kp V          &mmv MOVE_X(400)   &none             &kp PG_DN          &kp END           &kp HOME           &kp PG_UP         &none
+&none      &none              &none             &none              &xShiftonSpace    &xEntertab     &mkp LCLK          &none             &none              &none             &none              &none
             >;
         };
 
