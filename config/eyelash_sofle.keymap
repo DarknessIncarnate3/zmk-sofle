@@ -302,11 +302,11 @@
 
         layer_9 {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none       &none
+&none  &none      &none         &none      &kp LS(POUND)  &none    &none  &none  &kp BSLH       &none         &none         &none       &none
+&none  &kp MINUS  &kp LS(PLUS)  &kp EQUAL  &kp LS(PRCNT)  &none    &none  &none  &kp LS(QMARK)  &kp LS(EXCL)  &kp LS(DLLR)  &kp LS(AT)  &kp N2
+&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none       &none
+&none  &none      &none         &none      &none          &none    &none  &none  &none          &none         &none         &none
             >;
         };
     };
