@@ -212,11 +212,11 @@
 
         layer_game {
             bindings = <
-&kp GRAVE         &kp N1  &kp N2  &kp N3     &kp N4     &kp N5    &kp UP     &kp N6               &kp N7     &kp N8            &kp N9   &kp N0    &kp BSPC
-&kp TAB           &kp Q   &kp W   &kp F      &kp P      &kp G     &kp DOWN   &kp J                &kp L      &kp U             &kp Y    &kp SEMI  &trans
-&kp LEFT_CONTROL  &kp A   &kp R   &kp S      &kp T      &kp D     &kp LEFT   &kp H                &kp N      &kp E             &kp I    &kp O     &trans
-&kp LSHFT         &kp Z   &kp X   &kp C      &kp V      &kp B     &kp RIGHT  &kp K                &kp M      &kp COMMA         &kp DOT  &kp FSLH  &trans
-&kp C_MUTE        &trans  &mo 0   &kp SPACE  &kp SPACE  &trans    &kp SPACE  &zFastLayer 4 ENTER  &kp SPACE  &stickylayer 0 4  &trans   &to 0
+&kp GRAVE         &kp N1  &kp N2  &kp N3     &kp N4     &kp N5    &kp UP     &kp N6               &kp N7     &kp N8            &kp N9   &kp N0        &kp BSPC
+&kp TAB           &kp Q   &kp W   &kp F      &kp P      &kp G     &kp DOWN   &kp J                &kp L      &kp U             &kp Y    &kp SEMI      &trans
+&kp LEFT_CONTROL  &kp A   &kp R   &kp S      &kp T      &kp D     &kp LEFT   &kp H                &kp N      &kp E             &kp I    &kp O         &trans
+&kp LSHFT         &kp Z   &kp X   &kp C      &kp V      &kp B     &kp RIGHT  &kp K                &kp M      &kp COMMA         &kp DOT  &kp FSLH      &trans
+&kp C_MUTE        &trans  &mo 0   &kp SPACE  &kp SPACE  &trans    &kp SPACE  &zFastLayer 4 ENTER  &kp SPACE  &stickylayer 0 4  &trans   &z2layer 6 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -228,7 +228,7 @@
 &kp TAB       &kp COMMA       &kp N1                          &kp N2                &kp N3                 &kp LC(C)              &mmv MOVE_Y(400)   &kp ASTERISK         &kp TAB        &kp RET           &kp ESCAPE  &kp BACKSPACE  &kp DELETE
 &kp EQUAL     &kp N0          &kp N4                          &kp N5                &kp N6                 &kp LC(F)              &mmv MOVE_X(-400)  &kp MINUS            &kp LEFT       &kp DOWN          &kp UP      &kp RIGHT      &kp SQT
 &kp LEFT_ALT  &kp DOT         &kp N7                          &kp N8                &kp N9                 &kp LC(X)              &mmv MOVE_X(400)   &kp FSLH             &kp BACKSLASH  &kp END           &kp HOME    &trans         &zFastLayer 0 SEMI
-&kp C_MUTE    &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &none              &zFastLayer 0 ENTER  &kp SPACE      &stickylayer 5 4  &trans      &to 0
+&kp C_MUTE    &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &none              &zFastLayer 0 ENTER  &kp SPACE      &stickylayer 5 4  &trans      &z2layer 6 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
