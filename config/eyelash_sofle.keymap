@@ -240,6 +240,8 @@
 &kp LEFT_ALT  &kp DOT         &kp N7                          &kp N8                &kp N9                 &trans                 &kp RIGHT  &kp FSLH   &trans    &kp END    &kp HOME   &trans     &trans
 &trans        &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &kp RET    &trans     &trans    &trans     &trans     &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
         };
     };
 };
