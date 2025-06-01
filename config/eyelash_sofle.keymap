@@ -238,7 +238,7 @@
 &kp TAB       &kp COMMA       &kp N1                          &kp N2                &kp N3                 &kp LC(C)              &kp DOWN   &kp PLUS             &kp TAB        &kp RET    &kp ESCAPE  &kp BACKSPACE  &kp DELETE
 &kp EQUAL     &kp N0          &kp N4                          &kp N5                &kp N6                 &kp LC(F)              &kp LEFT   &kp MINUS            &kp LEFT       &kp DOWN   &kp UP      &kp RIGHT      &kp SQT
 &kp LEFT_ALT  &kp DOT         &kp N7                          &kp N8                &kp N9                 &kp LC(X)              &kp RIGHT  &kp FSLH             &kp BACKSLASH  &kp END    &kp HOME    &trans         &zFastLayer 3 SEMI
-&kp C_MUTE    &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &kp RET    &zFastLayer 1 ENTER  &kp SPACE      &trans     &trans      &trans
+&kp C_MUTE    &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &kp RET    &zFastLayer 1 ENTER  &kp SPACE      &trans     &trans      &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
