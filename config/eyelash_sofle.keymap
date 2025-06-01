@@ -184,17 +184,17 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        default_layer {
             bindings = <
 &kp GRAVE   &kp N1     &kp N2          &kp N3                          &kp N4          &kp N5    &kp UP_ARROW     &kp N6               &kp N7     &kp N8            &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q      &kp W           &kp F                           &kp P           &kp G     &kp DOWN_ARROW   &kp J                &kp L      &kp U             &kp Y            &kp SEMI    &kp BSLH
 &kp CAPS    &kp A      &kp R           &kp S                           &kp T           &kp D     &kp LEFT_ARROW   &kp H                &kp N      &kp E             &kp I            &kp O       &kp APOS
-&kp LSHFT   &kp Z      &kp X           &kp C                           &kp V           &kp B     &kp RIGHT_ARROW  &kp K                &kp M      &kp COMMA         &kp DOT          &kp FSLH    &stickylayer 1 3
-&kp C_MUTE  &kp LCTRL  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab     &kp ENTER        &zFastLayer 1 ENTER  &kp SPACE  &stickylayer 2 3  &kp RIGHT_SHIFT  &kp DELETE
+&kp LSHFT   &kp Z      &kp X           &kp C                           &kp V           &kp B     &kp RIGHT_ARROW  &kp K                &kp M      &kp COMMA         &kp DOT          &kp FSLH    &stickylayer 1 5
+&kp C_MUTE  &kp LCTRL  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab     &kp ENTER        &zFastLayer 1 ENTER  &kp SPACE  &stickylayer 2 5  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "cole";
         };
 
         layer_1 {
@@ -222,22 +222,12 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
         layer_entry {
             bindings = <
 &kp ESCAPE    &trans          &trans                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(V)              &kp UP     &kp STAR             &trans         &kp PG_DN  &kp PG_UP   &kp LC(R)      &kp LC(Z)
 &kp TAB       &kp COMMA       &kp N1                          &kp N2                &kp N3                 &kp LC(C)              &kp DOWN   &kp PLUS             &kp TAB        &kp RET    &kp ESCAPE  &kp BACKSPACE  &kp DELETE
 &kp EQUAL     &kp N0          &kp N4                          &kp N5                &kp N6                 &kp LC(F)              &kp LEFT   &kp MINUS            &kp LEFT       &kp DOWN   &kp UP      &kp RIGHT      &kp SQT
-&kp LEFT_ALT  &kp DOT         &kp N7                          &kp N8                &kp N9                 &kp LC(X)              &kp RIGHT  &kp FSLH             &kp BACKSLASH  &kp END    &kp HOME    &trans         &zFastLayer 3 SEMI
+&kp LEFT_ALT  &kp DOT         &kp N7                          &kp N8                &kp N9                 &kp LC(X)              &kp RIGHT  &kp FSLH             &kp BACKSLASH  &kp END    &kp HOME    &trans         &zFastLayer 5 SEMI
 &kp C_MUTE    &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &kp RET    &zFastLayer 1 ENTER  &kp SPACE      &trans     &trans      &to 0
             >;
 
@@ -251,6 +241,26 @@
 &none  &kp N0        &kp N4          &kp N5                          &kp N6     &kp LS(PLUS)                  &none  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND      &kp DOLLAR    &none
 &none  &none         &kp N7          &kp N8                          &kp N9     &kp FSLH                      &none  &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL      &kp QUESTION  &none
 &none  &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFast_Mod LEFT_META ENTER    &none  &kp ENTER  &kp LEFT_SHIFT        &stickylayer 1 2       &none          &to 0
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&kp GRAVE         &kp N1  &kp N2  &kp N3     &kp N4     &kp N5    &trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp BSPC
+&kp TAB           &kp Q   &kp W   &kp F      &kp P      &kp G     &trans  &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &trans
+&kp LEFT_CONTROL  &kp A   &kp R   &kp S      &kp T      &kp D     &trans  &kp H   &kp N   &kp E      &kp I    &kp O     &trans
+&kp LSHFT         &kp Z   &kp X   &kp C      &kp V      &kp B     &trans  &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+&trans            &trans  &mo 2   &kp SPACE  &kp SPACE  &trans    &trans  &trans  &trans  &trans     &trans   &to 0
             >;
         };
     };
