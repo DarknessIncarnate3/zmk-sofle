@@ -238,10 +238,10 @@
 &kp TAB       &kp COMMA       &kp N1                          &kp N2                &kp N3                 &trans                 &kp DOWN   &kp PLUS   &kp TAB   &kp RET    &kp RIGHT  &kp BSPC   &kp BSPC
 &kp EQUAL     &kp N0          &kp N4                          &kp N5                &kp N6                 &trans                 &kp LEFT   &kp MINUS  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp SQT
 &kp LEFT_ALT  &kp DOT         &kp N7                          &kp N8                &kp N9                 &trans                 &kp RIGHT  &kp FSLH   &trans    &kp END    &kp HOME   &trans     &trans
-&trans        &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &kp RET    &trans     &trans    &trans     &trans     &trans
+&kp C_MUTE    &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp LEFT              &kp RIGHT              &zFastLayer 0 ENTER    &kp RET    &trans     &trans    &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
