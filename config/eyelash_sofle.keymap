@@ -282,11 +282,11 @@
 
         layer_fkey {
             bindings = <
-&kp GRAVE                  &none  &kp F10  &kp F11  &kp F12  &kp F13    &none  &none  &none             &none           &none         &none          &none
-&kp TAB                    &none  &kp F1   &kp F2   &kp F3   &kp F14    &none  &none  &none             &none           &none         &none          &none
-&xF4                       &none  &kp F4   &kp F5   &kp F6   &kp F15    &none  &none  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_META  &none
-&zFast_Mod LEFT_ALT EQUAL  &none  &kp F7   &kp F8   &kp F9   &kp F16    &none  &none  &none             &none           &none         &none          &none
-&none                      &none  &none    &none    &none    &none      &none  &none  &none             &none           &none         &z2layer 6 0
+&kp GRAVE                  &none  &kp F10                  &kp F11                         &kp F12         &kp F13    &none  &none  &none             &none           &none         &none          &none
+&kp TAB                    &none  &kp F1                   &kp F2                          &kp F3          &kp F14    &none  &none  &none             &none           &none         &none          &none
+&xF4                       &none  &kp F4                   &kp F5                          &kp F6          &kp F15    &none  &none  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_META  &none
+&zFast_Mod LEFT_ALT EQUAL  &none  &kp F7                   &kp F8                          &kp F9          &kp F16    &none  &none  &none             &none           &none         &none          &none
+&none                      &none  &capsShift LEFT_SHIFT 0  &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab      &none  &none  &none             &none           &none         &z2layer 6 0
             >;
         };
 
