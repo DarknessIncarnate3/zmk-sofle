@@ -664,6 +664,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans
             >;
         };
+
+        layer_13 {
+            bindings = <
+&trans  &trans            &trans          &trans        &trans        &trans    &trans  &kp A   &kp B                            &trans        &trans          &trans                                   &trans
+&trans  &kp A             &trans          &trans        &trans        &trans    &trans  &trans  &trans                           &trans        &trans          &trans                                   &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &trans    &trans  &trans  &ztestysticky LEFT_GUI LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &ztestysticky LEFT_CONTROL LEFT_CONTROL  &trans
+&trans  &trans            &trans          &trans        &trans        &trans    &trans  &trans  &trans                           &trans        &trans          &trans                                   &zFastLayer 7 MINUS
+&trans  &trans            &trans          &trans        &trans        &gresc    &trans  &trans  &trans                           &trans        &trans          &trans
+            >;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
