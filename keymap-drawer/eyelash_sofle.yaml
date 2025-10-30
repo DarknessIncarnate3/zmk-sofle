@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: fkey, h: fkey}
+  - {t: '-', h: fn, s: _}
   - {t: entry, h: toggle}
   - {t: testy, h: testy}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -507,7 +507,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '&yBtClear', type: held alternate}
+  - {t: '&yBtClear', type: held}
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -519,7 +519,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: entry, h: toggle, type: held alternate}
   - {t: cole, h: toggle}
-  - {t: cole, h: fn, type: held}
+  - {t: cole, h: fn, type: held alternate}
   fkey:
   - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
