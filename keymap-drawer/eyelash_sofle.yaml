@@ -845,7 +845,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [30, 29]
-  k: $$mdi:apple-keyboard-control$$
-  l: [cole2]
