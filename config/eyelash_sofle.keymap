@@ -657,11 +657,11 @@
 
         layer_12 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans     &trans
-&trans  &none   &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_META  &kp LEFT_SHIFT  &kp LALT  &kp LCTRL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans          &trans
+&trans  &none   &trans  &trans  &trans  &trans    &trans  &trans  &gui_modlayer  &kp LEFT_SHIFT  &alt_modlayer  &ctrl_modlayer  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans
             >;
         };
     };
