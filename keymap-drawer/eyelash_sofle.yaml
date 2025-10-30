@@ -182,7 +182,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '=', s: +}
+  - {t: A, h: cole2}
   - $$mdi:volume-off$$
   - fkey
   - $$mdi:keyboard-space$$
@@ -637,13 +637,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: fkey, h: fkey}
+  - {t: fkey, h: fkey, type: held}
   - {t: entry, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
-  - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$', type: held}
+  - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
