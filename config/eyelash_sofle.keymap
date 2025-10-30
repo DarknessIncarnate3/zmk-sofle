@@ -658,8 +658,8 @@
         layer_12 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &gui_modlayer  &kp LEFT_SHIFT  &alt_modlayer  &ctrl_modlayer  &trans
+&trans  &trans  &trans  &trans  &trans  &kp A     &trans  &trans  &trans         &trans          &trans         &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &kp B     &trans  &trans  &gui_modlayer  &kp LEFT_SHIFT  &alt_modlayer  &ctrl_modlayer  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans         &trans
             >;
