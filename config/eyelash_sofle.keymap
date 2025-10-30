@@ -379,11 +379,11 @@
 
         layer_12 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans     &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans     &trans
+&trans  &kp LCTRL  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_META  &kp LEFT_SHIFT  &kp LALT  &kp LCTRL  &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans     &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans          &trans    &trans
             >;
         };
     };
