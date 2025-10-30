@@ -36,29 +36,7 @@
 
         tap-ms = <100>;
     };
- vm_ctrl1: vm_ctrl1 {
-        compatible = "zmk,behavior-hold-tap";
-        label = "VM_CTRL1";
-        hold-mods = <LC LS MD AL>; // modifiers to apply
-        hold-preferred = <true>;
-        quick-tap-term-ms = <200>;
-    };
 
-    vm_ctrl2: vm_ctrl2 {
-        compatible = "zmk,behavior-hold-tap";
-        label = "VM_CTRL2";
-        hold-mods = <LC LS MD AL>; // different key set
-        hold-preferred = <true>;
-        quick-tap-term-ms = <200>;
-    };
-
-    vm_ctrl3: vm_ctrl3 {
-        compatible = "zmk,behavior-hold-tap";
-        label = "VM_CTRL3";
-        hold-mods = <LC LS MD AL>; // different key set
-        hold-preferred = <true>;
-        quick-tap-term-ms = <200>;
-    };
     xTab: xTab {
         compatible = "zmk,behavior-mod-morph";
         label = "XTAB";
