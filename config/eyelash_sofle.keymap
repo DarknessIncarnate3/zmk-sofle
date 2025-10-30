@@ -198,15 +198,6 @@
         keep-mods = <(MOD_LALT)>;
     };
 
-    ztesty: ztesty {
-        compatible = "zmk,behavior-hold-tap";
-        label = "ZTESTY";
-        bindings = <&mo>;
-        #binding-cells = <2>;
-        hold-while-undecided;
-        tapping-term-ms = <200>;
-    };
-
     ztestysticky: ztestysticky {
         compatible = "zmk,behavior-hold-tap";
         label = "ZTESTYSTICKY";
@@ -366,11 +357,11 @@
 
         testy {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &kp A  &kp B                            &none      &none      &none                                    &none
-&none  &kp A  &none  &none  &none  &none    &none  &none  &none                            &none      &none      &none                                    &none
-&none  &none  &none  &none  &none  &none    &none  &none  &ztestysticky LEFT_GUI LEFT_GUI  &ztesty 5  &ztesty 6  &ztestysticky LEFT_CONTROL LEFT_CONTROL  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none                            &none      &none      &none                                    &zFastLayer 7 MINUS
-&none  &none  &none  &none  &none  &none    &none  &none  &none                            &none      &none      &none
+&none  &none  &none  &none  &none  &none    &none  &kp A  &kp B                            &none             &none             &none                                    &none
+&none  &kp A  &none  &none  &none  &none    &none  &none  &none                            &none             &none             &none                                    &none
+&none  &none  &none  &none  &none  &none    &none  &none  &ztestysticky LEFT_GUI LEFT_GUI  &stickylayer 5 5  &stickylayer 6 6  &ztestysticky LEFT_CONTROL LEFT_CONTROL  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none                            &none             &none             &none                                    &zFastLayer 7 MINUS
+&none  &none  &none  &none  &none  &none    &none  &none  &none                            &none             &none             &none
             >;
         };
     };
