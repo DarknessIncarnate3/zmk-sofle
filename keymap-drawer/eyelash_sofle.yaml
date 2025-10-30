@@ -131,7 +131,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: cole, h: fn}
   game:
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -187,8 +187,8 @@ layers:
   - fkey
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-esc$$', h: nav}
+  - '~'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - $$mdi:keyboard-space$$
@@ -382,7 +382,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav, type: held}
@@ -447,7 +447,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&yColour'
   - {t: nav, h: toggle, type: held alternate}
@@ -577,7 +577,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav, type: held alternate}
