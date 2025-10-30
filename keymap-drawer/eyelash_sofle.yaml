@@ -185,7 +185,7 @@ layers:
   - {t: '=', s: +}
   - $$mdi:volume-off$$
   - fkey
-  - cole
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
