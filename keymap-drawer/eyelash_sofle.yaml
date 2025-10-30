@@ -456,12 +456,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: cole, h: fn}
   fn:
-  - {t: game, h: toggle}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - RGB SAI
   - '&yPower'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -469,12 +469,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bl BL_INC'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: colet, h: toggle}
+  - {t: cole, h: toggle}
+  - {t: qwerty, h: toggle}
+  - {t: game, h: toggle}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - RGB SAD
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -482,11 +482,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {t: cole2, h: toggle}
+  - {t: entry, h: toggle}
+  - {t: sym, h: toggle}
+  - {t: nav, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRD
   - '&yBacklight'
@@ -495,11 +495,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bl BL_TOG'
-  - {t: qwerty, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:bluetooth-connect$$', h: '6'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '7'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '8'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {t: colet, h: toggle}
+  - {t: fn, h: toggle}
+  - {t: fkey, h: toggle}
+  - {t: ql, h: toggle}
   - '&yOutput'
   - RGB BRI
   - $$mdi:brightness-5$$
