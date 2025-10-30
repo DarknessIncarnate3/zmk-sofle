@@ -499,6 +499,25 @@
 
             label = "GUI_MODLAYER";
         };
+
+        l13: l13 {
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 13>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>,
+                <&macro_release>,
+                <&mo 13>;
+
+            label = "L13";
+        };
     };
 
     keymap {
@@ -509,7 +528,7 @@
             bindings = <
 &zFastLayer 12 A           &kp N1              &kp N2                   &kp N3     &kp N4          &kp N5    &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8            &kp N9           &kp N0    &kp BACKSPACE
 &kp TAB                    &kp Q               &kp W                    &kp F      &kp P           &kp G     &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U             &kp Y            &kp SEMI  &kp BSLH
-&xF4                       &kp A               &kp R                    &kp S      &kp T           &kp D     &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E             &kp I            &kp O     &kp APOS
+&zFastLayer 13 B           &kp A               &kp R                    &kp S      &kp T           &kp D     &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E             &kp I            &kp O     &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &kp Z               &kp X                    &kp C      &kp V           &kp B     &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA         &kp DOT          &kp FSLH  &zFastLayer 7 MINUS
 &to 4                      &stickylayer 11 11  &capsShift LEFT_SHIFT 0  &kp SPACE  &xShiftonSpace  &mo 11    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 5 9  &kp RIGHT_SHIFT  &mo 12
             >;
@@ -667,10 +686,10 @@
 
         layer_13 {
             bindings = <
-&trans  &trans            &trans          &trans        &trans        &trans    &trans  &kp A   &kp B                            &trans        &trans          &trans                                   &trans
-&trans  &kp A             &trans          &trans        &trans        &trans    &trans  &trans  &trans                           &trans        &trans          &trans                                   &trans
-&trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &trans    &trans  &trans  &ztestysticky LEFT_GUI LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &ztestysticky LEFT_CONTROL LEFT_CONTROL  &trans
-&trans  &trans            &trans          &trans        &trans        &trans    &trans  &trans  &trans                           &trans        &trans          &trans                                   &zFastLayer 7 MINUS
+&trans  &trans            &trans          &trans        &trans        &trans    &trans  &kp A   &kp B                            &trans        &trans          &trans  &trans
+&trans  &kp A             &trans          &trans        &trans        &trans    &trans  &trans  &trans                           &trans        &trans          &trans  &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &trans    &trans  &trans  &ztestysticky LEFT_GUI LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &l13    &trans
+&trans  &trans            &trans          &trans        &trans        &trans    &trans  &trans  &trans                           &trans        &trans          &trans  &zFastLayer 7 MINUS
 &trans  &trans            &trans          &trans        &trans        &gresc    &trans  &trans  &trans                           &trans        &trans          &trans
             >;
         };
