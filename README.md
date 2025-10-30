@@ -1,4 +1,3 @@
-- [中文](README.md)
 - [English](README_EN.md)
 
 # 更新列表
