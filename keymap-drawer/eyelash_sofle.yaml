@@ -252,7 +252,7 @@ layers:
   - fkey
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', h: nav}
+  - $$mdi:apple-keyboard-option$$
   - '~'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: sym}
@@ -408,8 +408,8 @@ layers:
   - {t: ',', s: <}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
-  - $$mdi:mouse-left-click-outline$$
-  - '%'
+  - {t: '3', s: '#'}
+  - Ctl+X
   - '&mmv MOVE_Y(400)'
   - $$mdi:pan-up$$
   - PG DN
@@ -417,12 +417,12 @@ layers:
   - HOME
   - PG UP
   - $$mdi:backspace-reverse-outline$$
-  - {t: '=', s: +}
-  - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(400)'
-  - '&mmv MOVE_Y(-400)'
-  - '&mmv MOVE_X(400)'
-  - $
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '0', s: )}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - Ctl+C
   - '&mmv MOVE_X(-400)'
   - $$mdi:pan-down$$
   - $$mdi:arrow-left-bold$$
@@ -430,12 +430,12 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
   - {t: ., s: '>'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - V
+  - Ctl+V
   - '&mmv MOVE_X(400)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG DN
@@ -446,8 +446,8 @@ layers:
   - PLAY PAUSE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav, type: held}
@@ -512,7 +512,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - '&yColour'
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
@@ -642,7 +642,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav, type: held alternate}
