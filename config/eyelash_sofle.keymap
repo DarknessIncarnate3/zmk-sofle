@@ -782,11 +782,11 @@
 
         l_f1 {
             bindings = <
-&none                      &kp      &none   &none   &none   &none    &kp  &kp    &kp               &kp              &kp           &kp            &kp A
-&kp TAB                    &kp F11  &kp F1  &kp F2  &kp F3  &none    &kp  &kp    &kp               &kp              &kp           &kp            &kp
-&xF4                       &kp F10  &kp F4  &kp F5  &kp F6  &none    &kp  &kp    &kp LEFT_CONTROL  &kp LEFT_SHIFT   &kp LEFT_ALT  &kp LEFT_META  &kp
-&zFast_Mod LEFT_ALT EQUAL  &kp F12  &kp F7  &kp F8  &kp F9  &none    &kp  &kp    &kp               &kp              &kp           &kp            &kp CAPSLOCK
-&kp                        &kp      &kp     &none   &none   &none    &kp  &none  &kp SPACE         &kp PRINTSCREEN  &kp           &z2layer 7 1
+&none                      &kp      &none   &none   &none   &none    &kp  &kp    &kp       &kp              &kp        &kp           &none
+&kp TAB                    &kp F11  &kp F1  &kp F2  &kp F3  &none    &kp  &kp    &kp       &kp              &kp        &kp           &kp
+&xF4                       &kp F10  &kp F4  &kp F5  &kp F6  &none    &kp  &kp    &kp LGUI  &kp LALT         &kp LSHFT  &kp LCTRL     &kp
+&zFast_Mod LEFT_ALT EQUAL  &kp F12  &kp F7  &kp F8  &kp F9  &none    &kp  &kp    &kp       &kp              &kp        &kp           &mo 7
+&kp                        &kp      &kp     &none   &none   &none    &kp  &none  &none     &kp PRINTSCREEN  &kp        &z2layer 7 1
             >;
 
             label = "f1";
