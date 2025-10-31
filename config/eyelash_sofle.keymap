@@ -393,9 +393,9 @@
         keep-mods = <(MOD_LALT)>;
     };
 
-    new_behavior: new_behavior {
+    xTabModl: xTabModl {
         compatible = "zmk,behavior-mod-morph";
-        label = "NEW_BEHAVIOR";
+        label = "XTABMODL";
         bindings = <&zFastLayer 13 F13>, <&kp TAB>;
 
         #binding-cells = <0>;
