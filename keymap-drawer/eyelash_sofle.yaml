@@ -1368,7 +1368,7 @@ layers:
 combos:
 - p: [21, 22]
   k: (
-  l: [sym, cole, game]
+  l: [cole, qwerty, nav, hrm]
 - p: [23, 22]
   k: )
   l: [sym, cole, game]
