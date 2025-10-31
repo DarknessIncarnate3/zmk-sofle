@@ -1170,10 +1170,71 @@ layers:
   - {t: '$$mdi:backspace$$', h: mod r}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  l_media: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '$$mdi:volume-off$$', '', '', P, N, '', '', '', '', REWIND, '$$mdi:skip-previous$$',
-    '$$mdi:skip-next$$', FAST FORWARD, PLAY PAUSE, '', '', '$$mdi:arrow-left-bold$$', '$$mdi:arrow-down-bold$$', '$$mdi:arrow-up-bold$$', '$$mdi:arrow-right-bold$$',
-    '', '', '$$mdi:arrow-left-bold$$', '$$mdi:arrow-down-bold$$', '$$mdi:arrow-right-bold$$', '$$mdi:arrow-up-bold$$', '', '', '', '', '', '', '', fn, '', '', '',
-    '', '$$mdi:keyboard-space$$', PLAY PAUSE, '', '$$mdi:apple-keyboard-control$$', '$$mdi:keyboard-space$$', '', '', '']
+  l_media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:arrow-up-bold$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-down-bold$$
+  - ''
+  - P
+  - N
+  - ''
+  - ''
+  - ''
+  - ''
+  - REWIND
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - FAST FORWARD
+  - PLAY PAUSE
+  - $$mdi:arrow-left-bold$$
+  - ''
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - ''
+  - ''
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-up-bold$$
+  - ''
+  - $$mdi:arrow-right-bold$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - fn
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
+  - PLAY PAUSE
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
+  - ''
+  - ''
+  - ''
 combos:
 - p: [8, 9]
   k: (
