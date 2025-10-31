@@ -1170,9 +1170,10 @@ layers:
   - {t: '$$mdi:backspace$$', h: mod r}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  l_media: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', P, N, '', '', '', '', REWIND, '$$mdi:skip-previous$$', '$$mdi:skip-next$$',
-    FAST FORWARD, '', '', '', '$$mdi:arrow-left-bold$$', '$$mdi:arrow-down-bold$$', '$$mdi:arrow-up-bold$$', '$$mdi:arrow-right-bold$$', '', '', '$$mdi:arrow-left-bold$$',
-    '$$mdi:arrow-down-bold$$', '$$mdi:arrow-right-bold$$', '$$mdi:arrow-up-bold$$', '', '', '', '', '', '', '', fn, '', '', '', '', '', '', '', '', '', '', '', '']
+  l_media: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '$$mdi:volume-off$$', '', '', P, N, '', '', '', '', REWIND, '$$mdi:skip-previous$$',
+    '$$mdi:skip-next$$', FAST FORWARD, PLAY PAUSE, '', '', '$$mdi:arrow-left-bold$$', '$$mdi:arrow-down-bold$$', '$$mdi:arrow-up-bold$$', '$$mdi:arrow-right-bold$$',
+    '', '', '$$mdi:arrow-left-bold$$', '$$mdi:arrow-down-bold$$', '$$mdi:arrow-right-bold$$', '$$mdi:arrow-up-bold$$', '', '', '', '', '', '', '', fn, '', '', '',
+    '', '$$mdi:keyboard-space$$', PLAY PAUSE, '', '$$mdi:apple-keyboard-control$$', '$$mdi:keyboard-space$$', '', '', '']
 combos:
 - p: [8, 9]
   k: (
