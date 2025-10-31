@@ -119,8 +119,8 @@ layers:
   - {t: /, s: '?'}
   - {t: f1, h: fn}
   - {t: cole, h: toggle}
-  - $$mdi:apple-keyboard-control$$
-  - {t: F13, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: nav}
