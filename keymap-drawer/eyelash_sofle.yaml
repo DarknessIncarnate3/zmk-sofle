@@ -992,28 +992,28 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - G
+  - E
+  - R
+  - T
   - '&mmv MOVE_Y(400)'
-  - J
-  - L
-  - U
   - Y
-  - {t: ;, s: ':'}
+  - U
+  - I
+  - O
+  - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
   - A
-  - R
   - S
-  - T
   - D
+  - F
+  - G
   - '&mmv MOVE_X(-400)'
   - H
-  - N
-  - E
-  - I
-  - O
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - Z
@@ -1022,7 +1022,7 @@ layers:
   - V
   - B
   - '&mmv MOVE_X(400)'
-  - K
+  - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
