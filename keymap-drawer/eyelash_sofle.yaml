@@ -182,7 +182,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: f1, h: fn}
+  - {t: '-', h: fn, s: _}
   - {t: cole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -312,7 +312,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '-', h: cole, s: _}
+  - {t: '-', h: fn, s: _}
   - $$mdi:volume-off$$
   - f1
   - $$mdi:keyboard-space$$
