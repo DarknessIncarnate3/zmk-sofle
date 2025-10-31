@@ -340,42 +340,42 @@ layers:
   - F10
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - {t: '`', s: '~'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - '*'
+  - '%'
+  - {t: '-', s: _}
+  - <
+  - '>'
+  - +
   - Ctl+Z
-  - '?'
-  - '{'
-  - '}'
-  - '&'
-  - '@'
-  - {t: \, s: '|'}
-  - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
-  - {t: '0', s: )}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - Sft++
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '!'
+  - '|'
   - (
   - )
-  - '#'
-  - $
-  - {t: F11, h: HRM}
-  - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: <}
-  - .
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ':'
+  - {t: ;, s: ':'}
+  - {t: \, s: '|'}
+  - '"'
   - ^
+  - $
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
+  - '@'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '!'
+  - '{'
+  - '}'
   - {t: '=', s: +}
+  - '*'
+  - {t: F11, h: HRM}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '#'
+  - _
+  - '&'
+  - {t: \, s: '|'}
+  - {t: '`', s: '~'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
+  - {t: /, s: '?'}
+  - .
+  - {t: ',', s: <}
   - '?'
   - {t: F12, h: fn}
   - {t: '$$mdi:keyboard-return$$', type: enter}
