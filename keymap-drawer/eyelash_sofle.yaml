@@ -445,7 +445,7 @@ layers:
   - {t: /, h: fn, s: '?'}
   - PLAY PAUSE
   - mouse
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
