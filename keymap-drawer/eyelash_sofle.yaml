@@ -515,10 +515,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - '&yColour'
-  - {t: nav, h: toggle, type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: entry, h: toggle, type: held alternate}
-  - {t: cole, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: cole, h: fn, type: held alternate}
   fkey:
   - {t: '`', s: '~'}
