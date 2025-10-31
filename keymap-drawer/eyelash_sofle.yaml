@@ -1122,28 +1122,28 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - G
+  - E
+  - R
+  - T
   - $$mdi:arrow-down-bold$$
-  - J
-  - L
-  - U
   - Y
-  - {t: ;, s: ':'}
+  - U
+  - I
+  - O
+  - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - A
-  - R
   - S
-  - T
   - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
   - H
-  - N
-  - E
-  - I
-  - O
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -1152,7 +1152,7 @@ layers:
   - V
   - B
   - $$mdi:arrow-right-bold$$
-  - K
+  - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
