@@ -80,10 +80,10 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - F
-  - P
+  - {t: Q, h: '&alt_modlayer'}
+  - {t: W, h: '&ctrl_modlayer'}
+  - {t: F, h: '&gui_modlayer'}
+  - {t: P, h: fkey}
   - G
   - '&mmv MOVE_Y(400)'
   - J
@@ -93,7 +93,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: F4}
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - R
   - S
   - T
@@ -538,7 +538,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
-  - F3
+  - {t: F3, type: held}
   - F14
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -572,7 +572,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-caps$$', type: held}
+  - {t: '$$mdi:apple-keyboard-caps$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
