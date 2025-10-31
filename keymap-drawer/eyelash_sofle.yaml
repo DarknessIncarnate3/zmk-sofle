@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  cole2:
+  cole:
   - {t: A, h: '12'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -65,7 +65,7 @@ layers:
   - {t: ql, h: sym}
   - $$mdi:apple-keyboard-shift$$
   - '12'
-  cole:
+  HRM:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -129,7 +129,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ql, h: sym}
   - $$mdi:apple-keyboard-shift$$
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   qwerty:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ql, h: sym}
   - $$mdi:apple-keyboard-shift$$
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   game:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -259,7 +259,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   entry:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -312,8 +312,8 @@ layers:
   - END
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ;, h: cole, s: ':'}
-  - {t: cole, h: toggle}
+  - {t: ;, h: HRM, s: ':'}
+  - {t: HRM, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -324,7 +324,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: ql, h: sym}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   sym:
   - $$mdi:keyboard-esc$$
   - F1
@@ -364,7 +364,7 @@ layers:
   - )
   - '#'
   - $
-  - {t: F11, h: cole}
+  - {t: F11, h: HRM}
   - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: <}
   - .
   - {t: '7', s: '&'}
@@ -389,7 +389,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: ql, h: sym, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   nav:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -454,7 +454,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ql, h: sym, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   fn:
   - '&bt_0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -471,7 +471,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - '&bt_1'
   - {t: colet, h: toggle}
-  - {t: cole, h: toggle}
+  - {t: HRM, h: toggle}
   - {t: qwerty, h: toggle}
   - {t: game, h: toggle}
   - '&bt_5'
@@ -483,7 +483,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bt_2'
-  - {t: cole2, h: toggle}
+  - {t: cole, h: toggle}
   - {t: entry, h: toggle}
   - {t: sym, h: toggle}
   - {t: nav, h: toggle}
@@ -519,7 +519,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: fn, type: held alternate}
+  - {t: HRM, h: fn, type: held alternate}
   fkey:
   - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -584,7 +584,7 @@ layers:
   - $$mdi:keyboard-space$$
   - PRINTSCREEN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   ql:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -649,7 +649,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: ql, h: sym, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   colet:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -714,7 +714,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: cole, h: fn}
+  - {t: HRM, h: fn}
   testy:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -913,82 +913,82 @@ layers:
 combos:
 - p: [8, 9]
   k: (
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [9, 10]
   k: )
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [10, 8]
   k: '"'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [23, 24]
   k: '{'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [24, 25]
   k: '}'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [32, 31]
   k: {t: '=', s: +}
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [37, 39]
   k: '@'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [7, 8]
   k: $$mdi:apple-keyboard-command$$
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [5, 4]
   k: $$mdi:apple-keyboard-command$$
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [23, 25, 24]
   k: '#'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [37, 39, 38]
   k: '%'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [23, 25]
   k: $
-  l: [sym, cole2, entry]
+  l: [sym, cole, entry]
 - p: [17, 15]
   k: '*'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [2, 4]
   k: +
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [30, 32]
   k: {t: '-', s: _}
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [30, 31]
   k: {t: /, s: '?'}
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [3, 4]
   k: '>'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [3, 2]
   k: <
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [17, 16]
   k: {t: ']', s: '}'}
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [16, 15]
   k: {t: '[', s: '{'}
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [26, 25]
   k: '&'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [1, 2]
   k: ^
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [14, 15]
   k: '~'
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [22, 23]
   k: $$mdi:apple-keyboard-shift$$
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [18, 17]
   k: $$mdi:apple-keyboard-shift$$
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [36, 37]
   k: $$mdi:apple-keyboard-option$$
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]
 - p: [33, 32]
   k: $$mdi:apple-keyboard-option$$
-  l: [sym, cole2, entry, game]
+  l: [sym, cole, entry, game]

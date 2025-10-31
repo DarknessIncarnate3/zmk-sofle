@@ -286,8 +286,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-cole2">
-<text x="0" y="28" class="label" id="cole2">cole2:</text>
+<g transform="translate(40, 0)" class="layer-cole">
+<text x="0" y="28" class="label" id="cole">cole:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -795,8 +795,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 388)" class="layer-cole">
-<text x="0" y="28" class="label" id="cole">cole:</text>
+<g transform="translate(40, 388)" class="layer-HRM">
+<text x="0" y="28" class="label" id="HRM">HRM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1161,8 +1161,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -1533,8 +1533,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -1886,8 +1886,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -2314,15 +2314,15 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">;</text>
-<a href="#cole">
-<text x="0" y="24" class="key hold layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="24" class="key hold layer-activator">HRM</text>
 </a><text x="0" y="-24" class="key shifted">:</text>
 </g>
 <g transform="translate(392, 217)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 259)" class="key keypos-53">
@@ -2384,8 +2384,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -2735,8 +2735,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">F11</text>
-<a href="#cole">
-<text x="0" y="24" class="key hold layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="24" class="key hold layer-activator">HRM</text>
 </a></g>
 <g transform="translate(28, 224)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2879,8 +2879,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -3385,8 +3385,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -3481,8 +3481,8 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-16">
@@ -3549,8 +3549,8 @@ rect.held, rect.combo.held {
 <g transform="translate(84, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole2">
-<text x="0" y="-4" class="key tap layer-activator">cole2</text>
+<a href="#cole">
+<text x="0" y="-4" class="key tap layer-activator">cole</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-28">
@@ -3753,8 +3753,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key held alternate keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
-<a href="#cole">
-<text x="0" y="-4" class="key held alternate tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key held alternate tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key held alternate hold layer-activator">fn</text>
 </a></g>
@@ -4095,8 +4095,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -4432,8 +4432,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
@@ -4802,8 +4802,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#cole">
-<text x="0" y="-4" class="key tap layer-activator">cole</text>
+<a href="#HRM">
+<text x="0" y="-4" class="key tap layer-activator">HRM</text>
 </a><a href="#fn">
 <text x="0" y="24" class="key hold layer-activator">fn</text>
 </a></g>
