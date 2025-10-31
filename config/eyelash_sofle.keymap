@@ -948,6 +948,16 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
+
+        l_media {
+            bindings = <
+&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp       &kp       &kp     &kp        &kp
+&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp P     &kp N     &kp     &kp        &kp
+&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp
+&kp  &kp LEFT  &kp DOWN  &kp RIGHT  &kp UP  &kp    &kp  &kp  &kp       &kp       &kp     &kp        &mo 7
+&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp       &kp       &kp     &kp
+            >;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
