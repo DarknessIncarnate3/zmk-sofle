@@ -629,7 +629,7 @@
             bindings = <
 &zFastLayer 12 A           &kp N1              &kp N2  &kp N3                       &kp N4     &kp N5                  &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8            &kp N9           &kp N0    &kp BACKSPACE
 &kp TAB                    &kp Q               &kp W   &kp F                        &kp P      &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U             &kp Y            &kp SEMI  &kp BSLH
-&stickylayer 13 13         &kp A               &kp R   &kp S                        &kp T      &kp D                   &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E             &kp I            &kp O     &kp APOS
+&zFast_Mod LEFT_SHIFT A    &kp A               &kp R   &kp S                        &kp T      &kp D                   &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E             &kp I            &kp O     &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &kp Z               &kp X   &kp C                        &kp V      &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA         &kp DOT          &kp FSLH  &zFastLayer 7 MINUS
 &to 4                      &stickylayer 11 11  &none   &zFast_Mod LEFT_CONTROL F13  &kp SPACE  &zFastLayer 5 ESCAPE    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 5 9  &kp RIGHT_SHIFT  &mo 12
             >;
