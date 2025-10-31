@@ -186,9 +186,9 @@ layers:
   - {t: cole, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F13, h: mod l, s: '$$mdi:keyboard-tab-reverse$$'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', h: nav}
+  - {t: '$$mdi:keyboard-esc$$', h: sym}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
