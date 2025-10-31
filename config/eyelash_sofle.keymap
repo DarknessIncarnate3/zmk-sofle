@@ -735,7 +735,7 @@
 &kp TAB                    &kp Q           &kp W         &kp F      &kp P       &kp G                   &kp DOWN_ARROW   &kp J                &kp L                        &kp U                     &kp Y    &kp SEMI                  &kp BACKSPACE
 &xF4                       &kp A           &kp R         &kp S      &kp T       &kp D                   &kp LEFT_ARROW   &kp H                &kp N                        &kp E                     &kp I    &kp O                     &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &kp Z           &kp X         &kp C      &kp V       &kp B                   &kp RIGHT_ARROW  &kp K                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH                  &zFastLayer 8 MINUS
-&to 0                      &kp LEFT_SHIFT  &kp LEFT_GUI  &xTabModl  &xTabSpace  &zFastLayer 6 ESCAPE    &none            &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 15 BACKSPACE  &mo 19   &zFastLayer 17 BACKSLASH
+&to 0                      &kp LEFT_SHIFT  &kp LEFT_GUI  &xTabModl  &xTabSpace  &zFastLayer 6 ESCAPE    &none            &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 15 BACKSPACE  &mo 9    &zFastLayer 17 BACKSLASH
             >;
 
             //sensor-bindings = <&scroll_morph>;
@@ -749,7 +749,7 @@
 &kp TAB                    &zHome_alt 0 Q              &zHome_ctrl 0 W           &zHome_gui 0 F          &zHomeLayer 9 P         &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                     &zHomeLayer 10 Y          &kp SEMI                    &kp BACKSPACE
 &xF4                       &zhomemod_l LEFT_CONTROL A  &zhomemod_l LEFT_SHIFT R  &zhomemod_l LEFT_ALT S  &zhomemod_l LEFT_GUI T  &kp D                   &mmv MOVE_X(-400)  &kp H                &zhomemod_r LEFT_GUI N       &zhomemod_r LEFT_ALT E    &zhomemod_r LEFT_SHIFT I  &zhomemod_r LEFT_CONTROL O  &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &zHomeLayer 16 Z            &zhomelayer_l 6 X         &zhomelayer_l 7 C       &kp V                   &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                 &kp DOT                   &zHomeLayer 16 SLASH        &zFastLayer 8 MINUS
-&to 0                      &kp LEFT_SHIFT              &kp LEFT_GUI              &xTabModl               &xTabSpace              &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 15 BACKSPACE  &mo 19                    &zFastLayer 17 BACKSLASH
+&to 0                      &kp LEFT_SHIFT              &kp LEFT_GUI              &xTabModl               &xTabSpace              &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 15 BACKSPACE  &mo 9                     &zFastLayer 17 BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -763,7 +763,7 @@
 &kp TAB                    &kp Q           &kp W                     &kp F        &kp P       &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                    &kp Y    &kp SEMI              &kp BACKSPACE
 &xF4                       &kp A           &kp R                     &kp S        &kp T       &kp D                   &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E                    &kp I    &kp O                 &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &kp Z           &kp X                     &kp C        &kp V       &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH              &zFastLayer 8 MINUS
-&to 0                      &kp LEFT_SHIFT  &zFastLayer 14 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 19   &zFastLayer 17 SLASH
+&to 0                      &kp LEFT_SHIFT  &zFastLayer 14 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 9    &zFastLayer 17 SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp A B>;
@@ -776,7 +776,7 @@
 &kp TAB                    &kp Q           &kp W                     &kp E        &kp R       &kp T                   &mmv MOVE_Y(400)   &kp Y                &kp U                        &kp I                    &kp O    &kp P     &kp BACKSPACE
 &xF4                       &kp A           &kp S                     &kp D        &kp F       &kp G                   &mmv MOVE_X(-400)  &kp H                &kp J                        &kp K                    &kp L    &kp SEMI  &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &kp Z           &kp X                     &kp C        &kp V       &kp B                   &mmv MOVE_X(400)   &kp N                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 8 MINUS
-&to 0                      &kp LEFT_SHIFT  &zFastLayer 14 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 19   &none
+&to 0                      &kp LEFT_SHIFT  &zFastLayer 14 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 9    &none
             >;
 
             sensor-bindings = <&inc_dec_kp A B>;
