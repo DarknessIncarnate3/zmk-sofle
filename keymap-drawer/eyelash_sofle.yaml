@@ -1381,10 +1381,10 @@ combos:
 - p: [36, 35]
   k: '}'
   l: [sym, cole, game]
-- p: [32, 31]
+- p: [43, 42]
   k: {t: '=', s: +}
   l: [sym, cole, game]
-- p: [37, 39]
+- p: [47, 49]
   k: '@'
   l: [sym, cole, game]
 - p: [7, 8]
@@ -1393,57 +1393,57 @@ combos:
 - p: [5, 4]
   k: $$mdi:apple-keyboard-command$$
   l: [sym, cole, game]
-- p: [23, 25, 24]
+- p: [34, 35, 36, 49]
   k: '#'
   l: [sym, cole, game]
-- p: [37, 39, 38]
+- p: [39, 47, 48, 49]
   k: '%'
   l: [sym, cole, game]
-- p: [23, 25]
+- p: [34, 36]
   k: $
   l: [sym, cole]
-- p: [17, 15]
+- p: [30, 28]
   k: '*'
   l: [sym, cole, game]
-- p: [2, 4]
+- p: [15, 17]
   k: +
   l: [sym, cole, game]
-- p: [30, 32]
+- p: [32, 41, 42]
   k: {t: '-', s: _}
   l: [sym, cole, game]
 - p: [30, 31]
   k: {t: /, s: '?'}
   l: [sym, cole, game]
-- p: [3, 4]
+- p: [16, 17]
   k: '>'
   l: [sym, cole, game]
-- p: [3, 2]
+- p: [16, 15]
   k: <
   l: [sym, cole, game]
-- p: [17, 16]
+- p: [30, 29]
   k: {t: ']', s: '}'}
   l: [sym, cole, game]
-- p: [16, 15]
+- p: [29, 28]
   k: {t: '[', s: '{'}
   l: [sym, cole, game]
-- p: [26, 25]
+- p: [37, 36]
   k: '&'
   l: [sym, cole, game]
-- p: [1, 2]
+- p: [14, 15]
   k: ^
   l: [sym, cole, game]
-- p: [14, 15]
+- p: [27, 28]
   k: '~'
   l: [sym, cole, game]
-- p: [22, 23]
+- p: [33, 34]
   k: $$mdi:apple-keyboard-shift$$
   l: [sym, cole, game]
-- p: [18, 17]
+- p: [30, 31]
   k: $$mdi:apple-keyboard-shift$$
   l: [sym, cole, game]
-- p: [36, 37]
+- p: [46, 47]
   k: $$mdi:apple-keyboard-option$$
   l: [sym, cole, game]
-- p: [33, 32]
+- p: [44, 43]
   k: $$mdi:apple-keyboard-option$$
   l: [sym, cole, game]
