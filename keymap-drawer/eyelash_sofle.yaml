@@ -549,8 +549,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bt_2'
   - {t: cole, h: toggle}
-  - {t: cole, h: toggle}
-  - {t: sym, h: toggle}
+  - {t: HRM, h: toggle}
+  - {t: pcole, h: toggle}
   - {t: game, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRD
@@ -561,10 +561,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: cole, h: toggle}
   - '&bt_3'
-  - {t: cole, h: toggle}
-  - {t: fn, h: toggle, type: held alternate}
-  - {t: f1, h: toggle, type: held alternate}
-  - {t: nav, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: game, h: toggle, type: held alternate}
+  - {t: game q, h: toggle, type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&yOutput'
   - RGB BRI
   - $$mdi:brightness-5$$
