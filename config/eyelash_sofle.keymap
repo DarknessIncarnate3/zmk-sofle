@@ -776,7 +776,7 @@
 &kp TAB                    &kp Q           &kp W                     &kp E        &kp R       &kp T                   &mmv MOVE_Y(400)   &kp Y                &kp U                        &kp I                    &kp O    &kp P     &kp BACKSPACE
 &xF4                       &kp A           &kp S                     &kp D        &kp F       &kp G                   &mmv MOVE_X(-400)  &kp H                &kp J                        &kp K                    &kp L    &kp SEMI  &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &kp Z           &kp X                     &kp C        &kp V       &kp B                   &mmv MOVE_X(400)   &kp N                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 8 MINUS
-&to 0                      &kp LEFT_SHIFT  &zFastLayer 14 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &none    &none
+&to 0                      &kp LEFT_SHIFT  &zFastLayer 14 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 6 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 19   &none
             >;
 
             sensor-bindings = <&inc_dec_kp A B>;
