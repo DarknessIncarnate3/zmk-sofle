@@ -53,7 +53,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', h: fn, s: _}
-  - {t: cole, h: toggle}
+  - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: F13, h: mod l, s: '$$mdi:keyboard-tab-reverse$$'}
