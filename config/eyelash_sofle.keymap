@@ -694,7 +694,7 @@
 &kp ESCAPE         &kp F1        &kp F2          &kp F3                          &kp F4             &kp F5                        &kp LC(R)  &kp F6               &kp F7                &kp F8                 &kp F9     &kp F10        &kp BACKSPACE
 &kp TAB            &kp PERCENT   &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN   &kp PLUS                      &kp LC(Z)  &kp PIPE             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp BACKSLASH
 &kp DOUBLE_QUOTES  &kp CARET     &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &kp AT_SIGN                   &none      &kp EXCLAMATION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
-&none              &kp HASH      &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH      &kp GRAVE                     &none      &kp TILDE            &kp SLASH             &kp PERIOD             &kp COMMA  &kp QUESTION   &zFastLayer 7 F12
+&none              &kp HASH      &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH      &kp GRAVE                     &none      &kp TILDE            &kp SLASH             &kp PERIOD             &kp COMMA  &kp QUESTION   &mo 7
 &kp ENTER          &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &zFast_Mod LEFT_META ENTER    &none      &zFastLayer 6 ENTER  &kp LEFT_SHIFT        &stickylayer 5 9       &none      &z2layer 7 1
             >;
 
