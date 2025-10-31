@@ -648,13 +648,6 @@
     // ------------------------------------------------------------------------------
 
     macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "NEW_MACRO";
-        };
-
         alt_modlayer: alt_modlayer {
             compatible = "zmk,behavior-macro";
             wait-ms = <0>;
@@ -849,11 +842,11 @@
 
         l_gsub {
             bindings = <
-&kp GRAVE  &kp F1           &kp F2  &kp F3           &kp F4           &kp F5             &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp M      &kp KP_NUMBER_1  &kp     &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp LCTRL  &kp              &kp     &kp              &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp LSHFT  &kp I            &kp N   &kp O            &kp L            &kp F5             &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp        &kp              &kp     &kp              &kp              &kp                &kp  &kp  &kp  &kp  &kp  &kp
+&kp GRAVE  &kp F1           &kp F2  &kp F3           &kp F4           &kp F5             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp M      &kp KP_NUMBER_1  &trans  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &trans           &trans  &trans           &kp KP_NUMBER_5  &kp KP_NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp I            &kp N   &kp O            &kp L            &kp F5             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans           &trans  &trans           &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
