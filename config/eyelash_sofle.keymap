@@ -625,7 +625,7 @@
         compatible = "zmk,keymap";
 
         layer_10 {
-            display-name = "cole2";
+            display-name = "cole";
             bindings = <
 &zFastLayer 12 A           &kp N1              &kp N2  &kp N3     &kp N4     &kp N5                  &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8            &kp N9           &kp N0    &kp BACKSPACE
 &kp TAB                    &kp Q               &kp W   &kp F      &kp P      &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U             &kp Y            &kp SEMI  &kp BSLH
@@ -647,7 +647,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
-            display-name = "cole";
+            display-name = "HRM";
         };
 
         layer_qwerty {
