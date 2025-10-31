@@ -1366,19 +1366,19 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: pcole, h: mod l}
 combos:
-- p: [8, 9]
+- p: [21, 22]
   k: (
   l: [sym, cole, game]
-- p: [9, 10]
+- p: [23, 22]
   k: )
   l: [sym, cole, game]
-- p: [10, 8]
+- p: [21, 23]
   k: '"'
   l: [sym, cole, game]
-- p: [23, 24]
+- p: [34, 35]
   k: '{'
   l: [sym, cole, game]
-- p: [24, 25]
+- p: [36, 35]
   k: '}'
   l: [sym, cole, game]
 - p: [32, 31]
