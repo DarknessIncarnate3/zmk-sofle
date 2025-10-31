@@ -267,6 +267,13 @@
         tapping-term-ms = <150>;
     };
 
+    bl_toggle: bl_toggle {
+        compatible = "zmk,behavior-tap-dance";
+        label = "Backlight Toggle";
+        #binding-cells = <0>;
+        bindings = <&bl BL_ON>, <&bl BL_OFF>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
