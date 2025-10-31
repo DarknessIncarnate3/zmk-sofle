@@ -847,7 +847,7 @@
             >;
         };
 
-        l_mod {
+        l_modl {
             label = "mod l";
             bindings = <
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -869,6 +869,17 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        l_modr {
+            label = "mod r";
+            bindings = <
+&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp PRINTSCREEN
+&trans  &kp LCTRL      &kp LSHFT       &kp LALT       &kp LGUI  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &mo 6
+&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 
