@@ -40,6 +40,13 @@
     layers = <0 3 6 1>; \
     timeout-ms = <30>; \
     require-prior-idle-ms = <120>;
+
+#define COMBO_MOD_SETTINGS_COMMON \
+            layers = <7 0 4>; \
+            timeout-ms = <30>; \
+            slow-release; \
+            require-prior-idle-ms = <120>;
+
     // ------------------------------------------------------------------------------
     //				   conditions
     // ------------------------------------------------------------------------------
@@ -466,21 +473,15 @@
         };
 
         meta {
+            COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_GUI>;
             key-positions = <7 8>;
-            timeout-ms = <30>;
-            slow-release;
-            require-prior-idle-ms = <5>;
-            layers = <7 0 4>;
         };
 
         meta2 {
+            COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_GUI>;
             key-positions = <5 4>;
-            timeout-ms = <30>;
-            slow-release;
-            require-prior-idle-ms = <5>;
-            layers = <7 0 4>;
         };
 
         hash {
@@ -568,39 +569,27 @@
         };
 
         shift {
+            COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <33 34>;
-            timeout-ms = <30>;
-            slow-release;
-            require-prior-idle-ms = <5>;
-            layers = <7 0 4>;
         };
 
         shift2 {
+            COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <30 31>;
-            timeout-ms = <30>;
-            slow-release;
-            require-prior-idle-ms = <5>;
-            layers = <7 0 4>;
         };
 
         alt2 {
+            COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_ALT>;
             key-positions = <46 47>;
-            timeout-ms = <30>;
-            slow-release;
-            require-prior-idle-ms = <5>;
-            layers = <7 0 4>;
         };
 
         alt {
+            COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_ALT>;
             key-positions = <44 43>;
-            timeout-ms = <30>;
-            slow-release;
-            require-prior-idle-ms = <5>;
-            layers = <7 0 4>;
         };
     };
 
