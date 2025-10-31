@@ -453,7 +453,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav, type: held}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: cole, type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - APP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   fn:
   - '&bt_0'
