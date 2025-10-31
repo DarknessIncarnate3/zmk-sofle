@@ -131,7 +131,7 @@
     xF4: xF4 {
         compatible = "zmk,behavior-mod-morph";
         label = "XF4";
-        bindings = <&zFast_Mod LEFT_CONTROL LEFT_GUI>, <&kp F4>;
+        bindings = <&zFast_Mod LEFT_CONTROL LEFT_GUI>, <&kp BACKSLASH>;
 
         #binding-cells = <0>;
         mods = <(MOD_LALT)>;
