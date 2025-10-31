@@ -58,31 +58,6 @@
     //				   conditions
     // ------------------------------------------------------------------------------
 
-  /* Base scroll: Up / Down */
-        scroll_arrows: scroll_arrows {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
-        };
-
-        /* Shift scroll: Left / Right */
-        scroll_lr: scroll_lr {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
-        };
-
-        /*
-         * Mod-morph wrapper that *also* accepts sensor binding params.
-         * NOTE: use #sensor-binding-cells = <2> so this node can be
-         * referenced with parameters (e.g. <&scroll_morph UP DOWN>).
-         */
-        scroll_morph: scroll_morph {
-            compatible = "zmk,behavior-mod-morph";
-            #sensor-binding-cells = <2>;   /* <-- IMPORTANT */
-            bindings = <&scroll_arrows>, <&scroll_lr>;
-            mods = <(MOD_LSFT | MOD_RSFT)>;
-        };
 
     // ------------------------------------------------------------------------------
     //				    testing
