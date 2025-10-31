@@ -718,8 +718,8 @@
 &kp GRAVE                  &kp N1                      &kp N2                       &kp N3                          &kp N4           &kp N5                  &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8                  &kp N9                    &kp N0                      &kp BACKSPACE
 &kp TAB                    &zHome_alt 0 Q              &zHome_ctrl 0 W              &zHome_gui 0 F                  &zHomeLayer 7 P  &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                   &kp Y                     &kp SEMI                    &kp BSLH
 &xF4                       &zhomemod_l LEFT_CONTROL A  &zhomemod_l LEFT_SHIFT R     &zhomemod_l LEFT_ALT S          &zhomemod_l T T  &kp D                   &mmv MOVE_X(-400)  &kp H                &zhomemod_r LEFT_GUI N       &zhomemod_r LEFT_ALT E  &zhomemod_r LEFT_SHIFT I  &zhomemod_r LEFT_CONTROL O  &kp APOS
-&zFast_Mod LEFT_ALT EQUAL  &zHomeMod Z Z               &zhomelayer_l 4 X            &zhomelayer_l 5 C               &kp V            &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA               &kp DOT                   &kp FSLH                    &stickylayer 7 7
-&to 0                      &kp LCTRL                   &zFast_Mod LEFT_CONTROL F13  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE        &zFastLayer 5 ESCAPE    &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 4 8        &kp RIGHT_SHIFT           &z2layer 6 1
+&zFast_Mod LEFT_ALT EQUAL  &zHomeMod Z Z               &zhomelayer_l 4 X            &zhomelayer_l 5 C               &kp V            &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA               &kp DOT                   &kp FSLH                    &stickylayer 6 7
+&to 0                      &kp LCTRL                   &zFast_Mod LEFT_CONTROL F13  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE        &zFastLayer 5 ESCAPE    &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &none                   &kp RIGHT_SHIFT           &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -874,11 +874,11 @@
         l_modr {
             label = "mod r";
             bindings = <
-&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp PRINTSCREEN
-&trans  &kp LCTRL      &kp LSHFT       &kp LALT       &kp LGUI  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &mo 6
-&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
+&trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &trans    &trans    &trans  &trans  &trans    &trans    &trans     &trans     &none
+&trans  &kp LCTRL      &kp LSHFT       &kp LALT       &kp LGUI  &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
+&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 6
+&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
     };
