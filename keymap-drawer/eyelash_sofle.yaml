@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - '&mmv MOVE_Y(-400)'
+  - $$mdi:arrow-up-bold$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - F
   - P
   - G
-  - '&mmv MOVE_Y(400)'
+  - $$mdi:arrow-down-bold$$
   - J
   - L
   - U
@@ -33,7 +33,7 @@ layers:
   - S
   - T
   - D
-  - '&mmv MOVE_X(-400)'
+  - $$mdi:arrow-left-bold$$
   - H
   - N
   - E
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - '&mmv MOVE_X(400)'
+  - $$mdi:arrow-right-bold$$
   - K
   - M
   - {t: ',', s: <}
