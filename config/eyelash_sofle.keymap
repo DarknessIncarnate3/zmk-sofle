@@ -47,18 +47,11 @@
 // ------------------------------------------------------------------------------
 //				    testing
 // ------------------------------------------------------------------------------
- scroll_arrows: scroll_arrows {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
-        };
 
-scroll_morph: scroll_morph {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&scroll_arrows UP DOWN>, <&scroll_arrows LEFT RIGHT>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
+
+
+
+
 
 
 // ------------------------------------------------------------------------------
