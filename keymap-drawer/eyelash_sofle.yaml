@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, h: func, s: '?'}
   qwerty:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
