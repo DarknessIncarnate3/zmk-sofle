@@ -249,6 +249,24 @@
         require-prior-idle-ms = <130>;
     };
 
+    bl_up: bl_up {
+        compatible = "zmk,behavior-tap-dance";
+        label = "Backlight Up";
+        #binding-cells = <0>;
+        bindings = <&bl BL_INC>, <&bl BL_SET 100>;
+
+        tapping-term-ms = <150>;
+    };
+
+    bl_down: bl_down {
+        compatible = "zmk,behavior-tap-dance";
+        label = "Backlight Down";
+        #binding-cells = <0>;
+        bindings = <&bl BL_DEC>, <&bl BL_SET 40>;
+
+        tapping-term-ms = <150>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -638,10 +656,10 @@
 
         layer_fn {
             bindings = <
-&bt BT_SEL 0  &none   &none  &none  &none  &bt BT_SEL 4    &rgb_ug RGB_SAI  &yPower               &none                 &none  &none  &none         &bt BT_CLR
+&bt BT_SEL 0  &none   &none  &none  &none  &bt BT_SEL 4    &rgb_ug RGB_SAI  &bl BL_INC            &bl BL_DEC            &none  &none  &none         &bt BT_CLR
 &bt BT_SEL 1  &to 10  &to 1  &to 2  &to 3  &bt BT_SEL 4    &rgb_ug RGB_SAD  &none                 &none                 &none  &none  &none         &none
 &bt BT_SEL 2  &to 0   &to 4  &to 5  &to 6  &none           &rgb_ug RGB_BRD  &yBacklight           &none                 &none  &none  &none         &bl BL_TOG
-&bt BT_SEL 3  &to 10  &to 7  &to 8  &to 9  &yOutput        &rgb_ug RGB_BRI  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none  &none  &none         &yBtClear
+&bt BT_SEL 3  &to 10  &to 7  &to 8  &to 9  &yOutput        &rgb_ug RGB_BRI  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none  &none  &none         &none
 &kp C_MUTE    &none   &none  &none  &none  &none           &yColour         &to 6                 &none                 &to 4  &to 1  &z2layer 7 1
             >;
 
