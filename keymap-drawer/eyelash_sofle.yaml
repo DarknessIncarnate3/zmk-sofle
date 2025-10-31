@@ -522,68 +522,68 @@ layers:
   - {t: HRM, h: fn, type: held alternate}
   f1:
   - {t: '`', s: '~'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F10
-  - F11
-  - F12
-  - F13
+  - ''
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - A
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F11
   - F1
   - F2
   - {t: F3, type: held}
-  - F14
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: F4}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F10
   - F4
   - F5
   - F6
-  - F15
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT META
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F12
   - F7
   - F8
   - F9
-  - F16
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: '$$mdi:apple-keyboard-caps$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - {type: held alternate}
+  - ''
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - $$mdi:keyboard-space$$
   - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {t: HRM, h: fn}
   ql:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
