@@ -817,7 +817,7 @@
 &kp C_PLAY_PAUSE  &none      &none           &kp LEFT_ARROW   &kp RIGHT_ARROW  &zFast_Mod LEFT_CONTROL ESCAPE    &none              &zFastLayer 6 ENTER  &zHomeMod LEFT_SHIFT SPACE  &zFastLayer 0 TAB      &kp K_APP      &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
             label = "nav";
         };
 
