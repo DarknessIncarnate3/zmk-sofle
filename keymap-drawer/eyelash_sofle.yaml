@@ -65,7 +65,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: mod r}
   - f1
   - {t: \, h: func, s: '|'}
-  HRM:
+  hrm:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -1329,7 +1329,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bt_2'
   - {t: cole, h: toggle}
-  - {t: HRM, h: toggle}
+  - {t: hrm, h: toggle}
   - {t: pcole, h: toggle}
   - {t: cole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

@@ -806,8 +806,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 388)" class="layer-HRM">
-<text x="0" y="28" class="label" id="HRM">HRM:</text>
+<g transform="translate(40, 388)" class="layer-hrm">
+<text x="0" y="28" class="label" id="hrm">hrm:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -7784,8 +7784,8 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#HRM">
-<text x="0" y="-4" class="key tap layer-activator">HRM</text>
+<a href="#hrm">
+<text x="0" y="-4" class="key tap layer-activator">hrm</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-29">
