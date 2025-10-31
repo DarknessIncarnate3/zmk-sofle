@@ -403,7 +403,7 @@ layers:
   - )
   - <
   - '>'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
   - {t: ',', s: <}
   - {t: '1', s: '!'}
