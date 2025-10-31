@@ -780,7 +780,7 @@
             label = "fn";
         };
 
-        layer_fkey {
+        l_f1 {
             bindings = <
 &kp GRAVE                  &none  &kp F10  &kp F11                         &kp F12         &kp F13    &none  &none                &none             &none            &none         &none          &kp A
 &kp TAB                    &none  &kp F1   &kp F2                          &kp F3          &kp F14    &none  &none                &none             &none            &none         &none          &none
@@ -789,7 +789,7 @@
 &none                      &none  &none    &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab      &none  &zFastLayer 5 ENTER  &kp SPACE         &kp PRINTSCREEN  &none         &z2layer 7 1
             >;
 
-            label = "fkey";
+            label = "f1";
         };
 
         layer_ql {
