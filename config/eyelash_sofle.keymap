@@ -37,16 +37,18 @@
         tap-ms = <100>;
     };
 
-    #define COMBO_SYM_SETTINGS_COMMON \
-    layers = <0 1 2 3>; \
-    timeout-ms = <15>; \
+    #define COMBO_SYM_SETTINGS_COMMON
+
+    layers = <0 1 2 3>;
+    timeout-ms = <15>;
+
     require-prior-idle-ms = <150
 
-    #define COMBO_MOD_SETTINGS_COMMON \
+    #define COMBO_MOD_SETTINGS_COMMON
 
-    layers = <0 1 2 3>; \
-    timeout-ms = <15>; \
-    slow-release; \
+    layers = <0 1 2 3>;
+    timeout-ms = <15>;
+    slow-release;
     require-prior-idle-ms = <150>;
 
     // ------------------------------------------------------------------------------
@@ -817,22 +819,22 @@
         l_modl {
             display-name = "mod l";
             bindings = <
-&none  &none           &none            &none           &none     &none    &none  &none  &none  &none  &none  &none                     &none
-&none  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &mo 10    &none    &none  &none  &none  &none  &none  &zFastLayer 13 SEMICOLON  &none
-&none  &kp LCTRL       &kp LSHFT        &kp LALT        &kp LGUI  &none    &none  &none  &none  &none  &none  &none                     &none
-&none  &none           &none            &none           &none     &none    &none  &none  &none  &none  &none  &none                     &mo 20
-&none  &none           &none            &none           &none     &none    &none  &none  &none  &none  &none  &none
+&none  &none           &none            &none           &none     &none          &none  &none  &none  &none  &none  &none                     &none
+&none  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &mo 10    &none          &none  &none  &none  &none  &none  &zFastLayer 13 SEMICOLON  &none
+&none  &kp LCTRL       &kp LSHFT        &kp LALT        &kp LGUI  &key_repeat    &none  &none  &none  &none  &none  &none                     &none
+&none  &none           &none            &none           &none     &none          &none  &none  &none  &none  &none  &none                     &mo 20
+&none  &none           &none            &none           &none     &none          &none  &none  &none  &none  &none  &none
             >;
         };
 
         l_modr {
             display-name = "mod r";
             bindings = <
-&none  &none           &none            &none           &none             &none    &none  &none  &none     &none     &none      &none                     &none
-&none  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 10 P  &none    &none  &none  &none     &none     &none      &zFastLayer 13 SEMICOLON  &none
-&none  &none           &none            &none           &none             &none    &none  &none  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL                 &none
-&none  &none           &none            &none           &none             &none    &none  &none  &none     &none     &none      &none                     &mo 20
-&none  &none           &none            &none           &none             &none    &none  &none  &none     &none     &none      &none
+&none  &none           &none            &none           &none             &none    &none  &none        &none     &none     &none      &none                     &none
+&none  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 10 P  &none    &none  &none        &none     &none     &none      &zFastLayer 13 SEMICOLON  &none
+&none  &none           &none            &none           &none             &none    &none  &key_repeat  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL                 &none
+&none  &none           &none            &none           &none             &none    &none  &none        &none     &none     &none      &none                     &mo 20
+&none  &none           &none            &none           &none             &none    &none  &none        &none     &none     &none      &none
             >;
         };
 
