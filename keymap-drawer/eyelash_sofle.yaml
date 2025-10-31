@@ -119,8 +119,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', h: fn, s: _}
   - {t: cole, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', h: mod l}
   - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: sym}
@@ -900,7 +900,7 @@ layers:
   - fn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
