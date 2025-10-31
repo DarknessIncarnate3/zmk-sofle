@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: mod r}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - l_mouse
   - {t: \, h: func, s: '|'}
   HRM:
   - $$mdi:keyboard-esc$$
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: mod r}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - l_mouse
   - {t: \, h: func, s: '|'}
   pcole:
   - $$mdi:keyboard-esc$$
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - l_mouse
   - {t: /, h: func, s: '?'}
   qwerty:
   - $$mdi:keyboard-esc$$
@@ -258,7 +258,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - l_mouse
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   game:
   - $$mdi:keyboard-esc$$
@@ -1298,7 +1298,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   l_gsub:
   - {t: '`', s: '~'}
