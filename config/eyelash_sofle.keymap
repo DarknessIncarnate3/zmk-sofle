@@ -737,8 +737,8 @@ scroll_morph: scroll_morph {
 &zFast_Mod LEFT_ALT EQUAL       &kp Z   &kp X   &kp C                        &kp V      &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 6 MINUS
 &to 0                           &none   &none   &zFast_Mod LEFT_CONTROL F13  &kp SPACE  &zFastLayer 4 ESCAPE    &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &none    &none
             >;
-sensor-bindings = <&scroll_morph>;
-            //sensor-bindings = <&inc_dec_kp A B>;
+//sensor-bindings = <&scroll_morph>;
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         l_hrm {
