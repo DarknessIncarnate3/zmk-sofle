@@ -850,11 +850,11 @@
         l_mod {
             label = "mod l";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &kp DEL   &kp LC(DEL)   &kp RET  &none  &kp PRINTSCREEN
-&none  &none  &none  &none  &none  &none    &none  &none  &kp BSPC  &kp LC(BSPC)  &none    &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &mo 6
-&none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none
+&none  &none          &none           &none          &none     &none    &none  &none  &none     &none         &none    &none  &none
+&none  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &none     &none    &none  &none  &kp DEL   &kp LC(DEL)   &kp RET  &none  &kp PRINTSCREEN
+&none  &kp LCTRL      &kp LSHFT       &kp LALT       &kp LGUI  &none    &none  &none  &kp BSPC  &kp LC(BSPC)  &none    &none  &none
+&none  &none          &none           &none          &none     &none    &none  &none  &none     &none         &none    &none  &mo 6
+&none  &none          &none           &none          &none     &none    &none  &none  &none     &none         &none    &none
             >;
         };
     };
