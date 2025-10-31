@@ -818,22 +818,22 @@
         l_modl {
             display-name = "mod l";
             bindings = <
-&trans  &trans          &trans           &trans          &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans                    &trans
-&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &mo 10    &trans    &trans  &trans  &trans  &trans  &trans  &zFastLayer 13 SEMICOLON  &none
-&trans  &kp LCTRL       &kp LSHFT        &kp LALT        &kp LGUI  &trans    &trans  &trans  &trans  &trans  &trans  &trans                    &trans
-&trans  &trans          &trans           &trans          &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans                    &mo 20
-&trans  &trans          &trans           &trans          &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none           &none            &none           &none     &none    &none  &none  &none  &none  &none  &none                     &none
+&none  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &mo 10    &none    &none  &none  &none  &none  &none  &zFastLayer 13 SEMICOLON  &none
+&none  &kp LCTRL       &kp LSHFT        &kp LALT        &kp LGUI  &none    &none  &none  &none  &none  &none  &none                     &none
+&none  &none           &none            &none           &none     &none    &none  &none  &none  &none  &none  &none                     &mo 20
+&none  &none           &none            &none           &none     &none    &none  &none  &none  &none  &none  &none
             >;
         };
 
         l_modr {
             display-name = "mod r";
             bindings = <
-&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans                    &trans
-&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 10 P  &trans    &trans  &trans  &trans    &trans    &trans     &zFastLayer 13 SEMICOLON  &trans
-&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL                 &trans
-&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans                    &mo 20
-&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans
+&none  &none           &none            &none           &none             &none    &none  &none  &none     &none     &none      &none                     &none
+&none  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 10 P  &none    &none  &none  &none     &none     &none      &zFastLayer 13 SEMICOLON  &none
+&none  &none           &none            &none           &none             &none    &none  &none  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL                 &none
+&none  &none           &none            &none           &none             &none    &none  &none  &none     &none     &none      &none                     &mo 20
+&none  &none           &none            &none           &none             &none    &none  &none  &none     &none     &none      &none
             >;
         };
 
