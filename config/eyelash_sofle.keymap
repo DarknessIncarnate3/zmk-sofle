@@ -797,7 +797,7 @@
 &none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &kp DEL   &kp LC(DEL)   &kp RET  &none  &kp PRINTSCREEN
 &none  &none  &none  &none  &none  &none    &none  &none  &kp BSPC  &kp LC(BSPC)  &none    &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &mo 7
 &none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none
             >;
 
