@@ -971,11 +971,11 @@
 
         layer_20 {
             bindings = <
-&trans     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp M      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp I   &kp N   &kp O   &kp L   &kp F5    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp        &kp F1           &kp F2  &kp F3           &kp F4           &kp F5             &kp  &kp  &kp  &kp  &kp  &kp  &kp
+&kp M      &kp KP_NUMBER_1  &kp     &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &kp  &kp  &kp  &kp  &kp  &kp  &kp
+&kp LCTRL  &kp              &kp     &kp              &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp  &kp  &kp  &kp  &kp  &kp  &kp
+&kp LSHFT  &kp I            &kp N   &kp O            &kp L            &kp F5             &kp  &kp  &kp  &kp  &kp  &kp  &kp
+&kp        &kp              &kp     &kp              &kp              &kp                &kp  &kp  &kp  &kp  &kp  &kp
             >;
         };
     };
