@@ -314,7 +314,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', h: mod l, s: _}
   - $$mdi:volume-off$$
-  - l_gsub
+  - gsub
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
@@ -379,7 +379,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', h: mod l, s: _}
   - $$mdi:volume-off$$
-  - l_gsub
+  - gsub
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
@@ -444,7 +444,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: /, h: mod l, s: '?'}
   - PLAY PAUSE
-  - l_mouse
+  - mouse
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
@@ -585,7 +585,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  l_gsub:
+  gsub:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -780,7 +780,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  l_alt:
+  alt:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1170,7 +1170,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  l_media:
+  media:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1235,7 +1235,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  l_mouse:
+  mouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1344,7 +1344,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: l_mouse, h: toggle}
+  - {t: mouse, h: toggle}
   - '&yOutput'
   - RGB BRI
   - $$mdi:brightness-5$$
@@ -1362,7 +1362,7 @@ layers:
   - '&yColour'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: l_media, h: toggle}
+  - {t: media, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: pcole, h: mod l}
 combos:
