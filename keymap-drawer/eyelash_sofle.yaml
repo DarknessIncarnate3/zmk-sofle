@@ -470,10 +470,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
   - '&bt_1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: cole, h: toggle}
+  - {t: pcole, h: toggle}
   - {t: HRM, h: toggle}
-  - {t: qwerty, h: toggle}
-  - {t: game, h: toggle}
   - '&bt_5'
   - RGB SAD
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -484,9 +484,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bt_2'
   - {t: cole, h: toggle}
-  - {t: cole, h: toggle}
+  - {t: qwerty, h: toggle}
   - {t: sym, h: toggle}
-  - {t: nav, h: toggle}
+  - {t: game, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRD
   - '&yBacklight'
@@ -499,7 +499,7 @@ layers:
   - {t: cole, h: toggle}
   - {t: fn, h: toggle, type: held alternate}
   - {t: f1, h: toggle, type: held alternate}
-  - {t: ql, h: toggle}
+  - {t: nav, h: toggle}
   - '&yOutput'
   - RGB BRI
   - $$mdi:brightness-5$$
