@@ -423,9 +423,9 @@
         paren_open {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <21 22>;
-            layers = <7 0 4>;
+            layers = <0 3 6 1>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <5>;
+            require-prior-idle-ms = <120>;
         };
 
         paren_close {
@@ -758,6 +758,7 @@
 &zFast_Mod LEFT_ALT EQUAL  &kp Z           &kp X                     &kp C        &kp V       &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH              &zFastLayer 15 MINUS
 &to 0                      &kp LEFT_SHIFT  &zFastLayer 16 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 7 ESCAPE    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 10   &zFastLayer 17 SLASH
             >;
+
             sensor-bindings = <&inc_dec_kp A B>;
         };
 
@@ -770,11 +771,12 @@
 &zFast_Mod LEFT_ALT EQUAL  &kp Z           &kp X                     &kp C        &kp V       &kp B                   &mmv MOVE_X(400)   &kp N                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 15 MINUS
 &to 0                      &kp LEFT_SHIFT  &zFastLayer 16 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 7 ESCAPE    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 10   &none
             >;
+
             sensor-bindings = <&inc_dec_kp A B>;
         };
 
         l_game {
-display-name = "game";
+            display-name = "game";
             bindings = <
 &kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4        &kp N5       &kp UP     &kp N6               &kp N7                       &kp N8                    &kp N9   &kp N0        &kp BSPC
 &kp TAB           &kp Q   &kp W      &kp F      &kp P         &kp G        &kp DOWN   &kp J                &kp L                        &kp U                     &kp Y    &kp SEMI      &kp BSLH
@@ -782,6 +784,7 @@ display-name = "game";
 &kp LSHFT         &kp Z   &kp X      &kp C      &kp V         &kp B        &kp RIGHT  &kp K                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH      &zFastLayer 15 MINUS
 &kp C_MUTE        &mo 9   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp TILDE    &kp SPACE  &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 16 BACKSPACE  &none    &kp LEFT_GUI
             >;
+
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -807,6 +810,7 @@ display-name = "game";
 &kp LALT          &kp DOT    &kp N7          &kp N8           &kp N9           &kp LC(V)                         &mmv MOVE_X(400)   &kp MINUS            &kp TAB                     &kp ENTER              &kp ESCAPE     &kp DELETE        &zFastLayer 15 SLASH
 &kp C_PLAY_PAUSE  &mo 19     &none           &kp LEFT_ARROW   &kp RIGHT_ARROW  &zFast_Mod LEFT_CONTROL ESCAPE    &none              &zFastLayer 6 ENTER  &zHomeMod LEFT_SHIFT SPACE  &zFastLayer 0 TAB      &kp K_APP      &none
             >;
+
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
@@ -819,6 +823,7 @@ display-name = "game";
 &none              &kp HASH      &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH      &kp GRAVE                     &none      &kp TILDE            &kp SLASH             &kp PERIOD             &kp COMMA  &kp QUESTION   &mo 15
 &kp ENTER          &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &zFast_Mod LEFT_META ENTER    &none      &zFastLayer 6 ENTER  &kp LEFT_SHIFT        &stickylayer 7 11      &none      &z2layer 15 2
             >;
+
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
@@ -831,6 +836,7 @@ display-name = "game";
 &kp LSHFT         &kp Z   &kp X      &kp C             &kp V      &kp B           &kp RIGHT  &kp K      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &zFastLayer 15 MINUS
 &kp C_MUTE        &none   &kp SPACE  &kp LEFT_CONTROL  &kp SPACE  &kp LEFT_GUI    &kp SPACE  &kp ENTER  &kp LEFT_SHIFT  &none      &none    &none
             >;
+
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
