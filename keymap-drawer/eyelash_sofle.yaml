@@ -364,7 +364,7 @@ layers:
   - '}'
   - {t: '=', s: +}
   - '*'
-  - {t: F11, h: HRM}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '#'
   - _
