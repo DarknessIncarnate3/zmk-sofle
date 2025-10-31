@@ -393,7 +393,7 @@
         paren_open {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <8 9>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -401,7 +401,7 @@
         paren_close {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <9 10>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -409,7 +409,7 @@
         quote_all {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <10 8>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -419,7 +419,7 @@
             key-positions = <23 24>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         brace_right {
@@ -427,7 +427,7 @@
             key-positions = <24 25>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         equal {
@@ -435,7 +435,7 @@
             key-positions = <32 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         at {
@@ -443,7 +443,7 @@
             key-positions = <37 39>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         meta {
@@ -452,7 +452,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         meta2 {
@@ -461,7 +461,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         hash {
@@ -469,7 +469,7 @@
             key-positions = <23 25 24>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         percentage {
@@ -477,7 +477,7 @@
             key-positions = <37 39 38>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         dollar {
@@ -485,7 +485,7 @@
             key-positions = <23 25>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0>;
+            layers = <5 0>;
         };
 
         star {
@@ -493,7 +493,7 @@
             key-positions = <17 15>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         plus {
@@ -501,7 +501,7 @@
             key-positions = <2 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         minus {
@@ -509,7 +509,7 @@
             key-positions = <30 32>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         divide {
@@ -517,7 +517,7 @@
             key-positions = <30 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         greater {
@@ -525,7 +525,7 @@
             key-positions = <3 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         less {
@@ -533,7 +533,7 @@
             key-positions = <3 2>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         bracket_close {
@@ -541,7 +541,7 @@
             key-positions = <17 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         bracket_open {
@@ -549,7 +549,7 @@
             key-positions = <16 15>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         and {
@@ -557,7 +557,7 @@
             key-positions = <26 25>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         caret {
@@ -565,7 +565,7 @@
             key-positions = <1 2>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         tilde {
@@ -573,7 +573,7 @@
             key-positions = <14 15>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         shift {
@@ -582,7 +582,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         shift2 {
@@ -591,7 +591,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         alt2 {
@@ -600,7 +600,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
 
         alt {
@@ -609,7 +609,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <4 0 3>;
+            layers = <5 0 4>;
         };
     };
 
@@ -632,14 +632,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 9>,
+                <&mo 10>,
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LALT>,
                 <&macro_release>,
-                <&mo 9>;
+                <&mo 10>;
         };
 
         ctrl_modlayer: ctrl_modlayer {
@@ -649,14 +649,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 10>,
+                <&mo 11>,
                 <&macro_press>,
                 <&kp LEFT_CONTROL>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LEFT_CONTROL>,
                 <&macro_release>,
-                <&mo 10>;
+                <&mo 11>;
 
             label = "CTRL_MODLAYER";
         };
@@ -668,14 +668,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 11>,
+                <&mo 12>,
                 <&macro_press>,
                 <&kp LEFT_GUI>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&mo 11>;
+                <&mo 12>;
 
             label = "GUI_MODLAYER";
         };
@@ -704,8 +704,8 @@
 &kp ESCAPE                        &kp N1  &kp N2  &kp N3              &kp N4     &kp N5                  &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8                   &kp N9   &kp N0    &kp BACKSPACE
 &kp TAB                           &kp Q   &kp W   &kp F               &kp P      &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSLH
 &zFast_Mod LEFT_CONTROL LEFT_GUI  &kp A   &kp R   &kp S               &kp T      &kp D                   &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E                    &kp I    &kp O     &kp APOS
-&zFast_Mod LEFT_ALT EQUAL         &kp Z   &kp X   &kp C               &kp V      &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 6 MINUS
-&to 0                             &none   &none   &zFastLayer 12 F13  &kp SPACE  &zFastLayer 4 ESCAPE    &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &none    &none
+&zFast_Mod LEFT_ALT EQUAL         &kp Z   &kp X   &kp C               &kp V      &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 7 MINUS
+&to 0                             &none   &none   &zFastLayer 13 F13  &kp SPACE  &zFastLayer 5 ESCAPE    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &none    &none
             >;
 
             //sensor-bindings = <&scroll_morph>;
@@ -713,39 +713,52 @@
             sensor-bindings = <&inc_dec_kp A B>;
         };
 
+        l_pcole {
+            display-name = "pcole";
+            bindings = <
+&kp ESCAPE                        &kp N1  &kp N2  &kp N3                   &kp N4     &kp N5                  &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8                   &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB                           &kp Q   &kp W   &kp F                    &kp P      &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSLH
+&zFast_Mod LEFT_CONTROL LEFT_GUI  &kp A   &kp R   &kp S                    &kp T      &kp D                   &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E                    &kp I    &kp O     &kp APOS
+&zFast_Mod LEFT_ALT EQUAL         &kp Z   &kp X   &kp C                    &kp V      &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 7 MINUS
+&to 0                             &none   &none   &zFast_Mod LEFT_GUI F13  &kp SPACE  &zFastLayer 5 ESCAPE    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &none    &none
+            >;
+
+            sensor-bindings = <&inc_dec_kp A B>;
+        };
+
         l_hrm {
             bindings = <
 &kp GRAVE                  &kp N1                      &kp N2                    &kp N3                          &kp N4           &kp N5                  &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8                  &kp N9                    &kp N0                      &kp BACKSPACE
-&kp TAB                    &zHome_alt 0 Q              &zHome_ctrl 0 W           &zHome_gui 0 F                  &zHomeLayer 7 P  &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                   &kp Y                     &kp SEMI                    &kp BSLH
+&kp TAB                    &zHome_alt 0 Q              &zHome_ctrl 0 W           &zHome_gui 0 F                  &zHomeLayer 8 P  &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                   &kp Y                     &kp SEMI                    &kp BSLH
 &xF4                       &zhomemod_l LEFT_CONTROL A  &zhomemod_l LEFT_SHIFT R  &zhomemod_l LEFT_ALT S          &zhomemod_l T T  &kp D                   &mmv MOVE_X(-400)  &kp H                &zhomemod_r LEFT_GUI N       &zhomemod_r LEFT_ALT E  &zhomemod_r LEFT_SHIFT I  &zhomemod_r LEFT_CONTROL O  &kp APOS
-&zFast_Mod LEFT_ALT EQUAL  &zHomeMod Z Z               &zhomelayer_l 4 X         &zhomelayer_l 5 C               &kp V            &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA               &kp DOT                   &kp FSLH                    &stickylayer 6 7
-&to 0                      &none                       &none                     &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE        &zFastLayer 5 ESCAPE    &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &none                   &kp RIGHT_SHIFT           &none
+&zFast_Mod LEFT_ALT EQUAL  &zHomeMod Z Z               &zhomelayer_l 5 X         &zhomelayer_l 6 C               &kp V            &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA               &kp DOT                   &kp FSLH                    &stickylayer 7 8
+&to 0                      &none                       &none                     &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE        &zFastLayer 6 ESCAPE    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &none                   &kp RIGHT_SHIFT           &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
             display-name = "HRM";
         };
 
-        layer_qwerty {
+        l_qwerty {
             display-name = "qwerty";
             bindings = <
 &kp GRAVE                  &kp N1     &kp N2  &kp N3                          &kp N4          &kp N5    &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8            &kp N9           &kp N0        &kp BACKSPACE
 &kp TAB                    &kp Q      &kp W   &kp E                           &kp R           &kp T     &mmv MOVE_Y(400)   &kp Y                &kp U                        &kp I             &kp O            &kp P         &kp BSLH
 &xF4                       &kp A      &kp S   &kp D                           &kp F           &kp G     &mmv MOVE_X(-400)  &kp H                &kp J                        &kp K             &kp L            &kp O         &kp APOS
-&zFast_Mod LEFT_ALT EQUAL  &kp Z      &kp X   &kp C                           &kp V           &kp B     &mmv MOVE_X(400)   &kp N                &kp M                        &kp COMMA         &kp DOT          &kp FSLH      &stickylayer 7 7
-&to 0                      &kp LCTRL  &none   &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab     &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 4 8  &kp RIGHT_SHIFT  &z2layer 6 1
+&zFast_Mod LEFT_ALT EQUAL  &kp Z      &kp X   &kp C                           &kp V           &kp B     &mmv MOVE_X(400)   &kp N                &kp M                        &kp COMMA         &kp DOT          &kp FSLH      &stickylayer 8 8
+&to 0                      &kp LCTRL  &none   &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab     &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 5 9  &kp RIGHT_SHIFT  &z2layer 7 2
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
-        layer_game {
+        l_game {
             bindings = <
 &kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4        &kp N5       &kp UP     &kp N6               &kp N7     &kp N8                       &kp N9   &kp N0        &kp BSPC
 &kp TAB           &kp Q   &kp W      &kp F      &kp P         &kp G        &kp DOWN   &kp J                &kp L      &kp U                        &kp Y    &kp SEMI      &kp BSLH
 &kp LEFT_CONTROL  &kp A   &kp R      &kp S      &kp T         &kp D        &kp LEFT   &kp H                &kp N      &kp E                        &kp I    &kp O         &kp SQT
 &kp LSHFT         &kp Z   &kp X      &kp C      &kp V         &kp B        &kp RIGHT  &kp K                &kp M      &kp COMMA                    &kp DOT  &kp FSLH      &zFastLayer 0 MINUS
-&kp C_MUTE        &mo 7   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp TILDE    &kp SPACE  &zFastLayer 4 ENTER  &kp SPACE  &zFast_Mod LEFT_SHIFT SPACE  &trans   &z2layer 6 1
+&kp C_MUTE        &mo 8   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp TILDE    &kp SPACE  &zFastLayer 5 ENTER  &kp SPACE  &zFast_Mod LEFT_SHIFT SPACE  &trans   &z2layer 7 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -757,8 +770,8 @@
 &kp ESCAPE         &kp N1        &kp N2          &kp N3                          &kp N4             &kp N5                        &kp LC(R)  &kp N6               &kp N7                &kp N8                 &kp N9     &kp N0         &kp DELETE
 &kp TAB            &kp PERCENT   &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN   &kp PLUS                      &kp LC(Z)  &kp PIPE             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp BSPC
 &kp DOUBLE_QUOTES  &kp CARET     &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &kp AT_SIGN                   &none      &kp EXCLAMATION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
-&none              &kp HASH      &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH      &kp GRAVE                     &none      &kp TILDE            &kp SLASH             &kp PERIOD             &kp COMMA  &kp QUESTION   &mo 6
-&kp ENTER          &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &zFast_Mod LEFT_META ENTER    &none      &zFastLayer 5 ENTER  &kp LEFT_SHIFT        &stickylayer 4 8       &none      &z2layer 6 1
+&none              &kp HASH      &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH      &kp GRAVE                     &none      &kp TILDE            &kp SLASH             &kp PERIOD             &kp COMMA  &kp QUESTION   &mo 7
+&kp ENTER          &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &zFast_Mod LEFT_META ENTER    &none      &zFastLayer 6 ENTER  &kp LEFT_SHIFT        &stickylayer 5 9       &none      &z2layer 7 2
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -770,8 +783,8 @@
 &none             &kp HASH   &kp UNDERSCORE  &kp EXCLAMATION  &kp EQUAL        &kp PERCENT                       &mmv MOVE_Y(-400)  &kp AMPERSAND        &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSPACE
 &kp TAB           &kp COMMA  &kp N1          &kp N2           &kp N3           &kp LC(X)                         &mmv MOVE_Y(400)   &kp ASTERISK         &kp HOME                    &kp PAGE_UP            &kp PAGE_DOWN  &kp END           &kp BACKSPACE
 &kp LEFT_SHIFT    &kp N0     &kp N4          &kp N5           &kp N6           &kp LC(C)                         &mmv MOVE_X(-400)  &kp PLUS             &kp LEFT                    &kp DOWN               &kp UP         &kp RIGHT         &kp RET
-&kp LALT          &kp DOT    &kp N7          &kp N8           &kp N9           &kp LC(V)                         &mmv MOVE_X(400)   &kp MINUS            &kp TAB                     &kp ENTER              &kp ESCAPE     &kp DELETE        &zFastLayer 6 SLASH
-&kp C_PLAY_PAUSE  &none      &none           &kp LEFT_ARROW   &kp RIGHT_ARROW  &zFast_Mod LEFT_CONTROL ESCAPE    &none              &zFastLayer 5 ENTER  &zHomeMod LEFT_SHIFT SPACE  &zFastLayer 0 TAB      &none          &none
+&kp LALT          &kp DOT    &kp N7          &kp N8           &kp N9           &kp LC(V)                         &mmv MOVE_X(400)   &kp MINUS            &kp TAB                     &kp ENTER              &kp ESCAPE     &kp DELETE        &zFastLayer 7 SLASH
+&kp C_PLAY_PAUSE  &none      &none           &kp LEFT_ARROW   &kp RIGHT_ARROW  &zFast_Mod LEFT_CONTROL ESCAPE    &none              &zFastLayer 6 ENTER  &zHomeMod LEFT_SHIFT SPACE  &zFastLayer 0 TAB      &none          &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
@@ -781,10 +794,10 @@
         layer_fn {
             bindings = <
 &bt_0            &none  &none  &none  &none  &bt_4       &rgb_ug RGB_SAI  &bl BL_INC            &bl BL_DEC            &none  &none  &none         &bt BT_CLR
-&bt_1            &to 0  &to 1  &to 2  &to 3  &bt_5       &rgb_ug RGB_SAD  &none                 &none                 &none  &none  &none         &none
-&bt_2            &to 0  &to 0  &to 4  &to 5  &none       &rgb_ug RGB_BRD  &yBacklight           &none                 &none  &none  &none         &bl BL_TOG
-&bt_3            &to 0  &to 6  &to 7  &to 8  &yOutput    &rgb_ug RGB_BRI  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none  &none  &none         &none
-&rgb_ug RGB_TOG  &none  &none  &none  &none  &none       &yColour         &none                 &none                 &none  &none  &z2layer 6 1
+&bt_1            &to 0  &to 2  &to 3  &to 4  &bt_5       &rgb_ug RGB_SAD  &none                 &none                 &none  &none  &none         &none
+&bt_2            &to 0  &to 0  &to 5  &to 6  &none       &rgb_ug RGB_BRD  &yBacklight           &none                 &none  &none  &none         &bl BL_TOG
+&bt_3            &to 0  &to 7  &to 8  &to 9  &yOutput    &rgb_ug RGB_BRI  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none  &none  &none         &none
+&rgb_ug RGB_TOG  &none  &none  &none  &none  &none       &yColour         &none                 &none                 &none  &none  &z2layer 7 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -796,7 +809,7 @@
 &none    &none    &none   &none   &none   &none    &none  &none  &none     &none            &none      &none      &none
 &kp TAB  &kp F11  &kp F1  &kp F2  &kp F3  &none    &none  &none  &none     &none            &none      &none      &none
 &xF4     &kp F10  &kp F4  &kp F5  &kp F6  &none    &none  &none  &kp LGUI  &kp LALT         &kp LSHFT  &kp LCTRL  &none
-&none    &kp F12  &kp F7  &kp F8  &kp F9  &none    &none  &none  &none     &none            &none      &none      &mo 6
+&none    &kp F12  &kp F7  &kp F8  &kp F9  &none    &none  &none  &none     &none            &none      &none      &mo 7
 &none    &none    &none   &none   &none   &none    &none  &none  &none     &kp PRINTSCREEN  &none      &none
             >;
 
@@ -808,7 +821,7 @@
 &none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &kp DEL   &kp LC(DEL)   &kp RET  &none  &kp PRINTSCREEN
 &none  &none  &none  &none  &none  &none    &none  &none  &kp BSPC  &kp LC(BSPC)  &none    &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &mo 6
+&none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &mo 7
 &none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none
             >;
 
@@ -820,7 +833,7 @@
 &none  &none  &none      &none        &none      &none      &none  &none      &none     &none      &none      &none      &none
 &none  &none  &kp LCTRL  &none        &kp D      &kp F4     &none  &kp P      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none
 &none  &none  &kp LSHFT  &kp LS(TAB)  &kp TAB    &none      &none  &none      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
-&none  &none  &none      &none        &none      &none      &none  &none      &none     &none      &none      &none      &mo 6
+&none  &none  &none      &none        &none      &none      &none  &none      &none     &none      &none      &none      &mo 7
 &none  &none  &none      &kp ESC      &kp SPACE  &kp RET    &none  &kp ENTER  &none     &none      &none      &none
             >;
         };
@@ -831,7 +844,7 @@
 &none           &none           &none  &none        &none      &none      &none  &none      &none     &none      &none      &none      &none
 &kp LS(ESCAPE)  &kp LEFT_SHIFT  &none  &kp Z        &kp Y      &kp Q      &none  &kp T      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN
 &kp LA(DEL)     &kp A           &none  &kp LS(TAB)  &kp TAB    &kp W      &none  &kp BSPC   &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
-&none           &none           &none  &kp P        &kp LS(N)  &kp N      &kp N  &none      &kp C     &kp V      &kp X      &kp A      &mo 6
+&none           &none           &none  &kp P        &kp LS(N)  &kp N      &kp N  &none      &kp C     &kp V      &kp X      &kp A      &mo 7
 &none           &none           &none  &kp ESC      &kp SPACE  &kp RET    &none  &kp ENTER  &none     &none      &none      &none
             >;
         };
@@ -842,7 +855,7 @@
 &none        &none        &none      &none    &none      &none      &none  &none      &none      &none      &none      &none       &none
 &kp ESC      &kp LCTRL    &kp LSHFT  &none    &kp E      &kp Q      &none  &none      &kp HOME   &kp PG_DN  &kp PG_UP  &kp END     &kp PRINTSCREEN
 &kp LA(DOT)  &kp LS(TAB)  &kp LS(S)  &none    &kp TAB    &kp W      &none  &kp PLUS   &kp LEFT   &kp DOWN   &kp RIGHT  &kp UP      &kp PAUSE_BREAK
-&kp X        &kp P        &kp LC(D)  &kp M    &kp D      &kp L      &none  &kp MINUS  &kp R      &kp V      &none      &kp LC(N4)  &mo 6
+&kp X        &kp P        &kp LC(D)  &kp M    &kp D      &kp L      &none  &kp MINUS  &kp R      &kp V      &none      &kp LC(N4)  &mo 7
 &none        &none        &none      &kp ESC  &kp SPACE  &kp RET    &none  &kp RET    &kp LSHFT  &none      &none      &none
             >;
         };
@@ -853,7 +866,7 @@
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &none
 &trans  &kp LCTRL      &kp LSHFT       &kp LALT       &kp LGUI  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &mo 6
+&trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &mo 7
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -862,9 +875,9 @@
             label = "mod r";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &mo 8      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &mo 9      &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 6
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 7
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
@@ -875,24 +888,11 @@
 &kp ESCAPE        &kp N1  &kp N2     &kp N3            &kp N4     &kp N5          &kp UP     &kp N6     &kp N7          &kp N8     &kp N9   &kp N0    &kp BSPC
 &kp TAB           &kp Q   &kp W      &kp F             &kp P      &kp G           &kp DOWN   &kp J      &kp L           &kp U      &kp Y    &kp SEMI  &kp BSLH
 &kp LEFT_CONTROL  &kp A   &kp R      &kp S             &kp T      &kp D           &kp LEFT   &kp H      &kp N           &kp E      &kp I    &kp O     &kp SQT
-&kp LSHFT         &kp Z   &kp X      &kp C             &kp V      &kp B           &kp RIGHT  &kp K      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &zFastLayer 6 MINUS
+&kp LSHFT         &kp Z   &kp X      &kp C             &kp V      &kp B           &kp RIGHT  &kp K      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &zFastLayer 7 MINUS
 &kp C_MUTE        &none   &kp SPACE  &kp LEFT_CONTROL  &kp SPACE  &kp LEFT_GUI    &kp SPACE  &kp ENTER  &kp LEFT_SHIFT  &none      &none    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };
-
-        l_pcole {
-            display-name = "pcole";
-            bindings = <
-&kp ESCAPE                        &kp N1  &kp N2  &kp N3                   &kp N4     &kp N5                  &mmv MOVE_Y(-400)  &kp N6               &kp N7                       &kp N8                   &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB                           &kp Q   &kp W   &kp F                    &kp P      &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSLH
-&zFast_Mod LEFT_CONTROL LEFT_GUI  &kp A   &kp R   &kp S                    &kp T      &kp D                   &mmv MOVE_X(-400)  &kp H                &kp N                        &kp E                    &kp I    &kp O     &kp APOS
-&zFast_Mod LEFT_ALT EQUAL         &kp Z   &kp X   &kp C                    &kp V      &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 6 MINUS
-&to 0                             &none   &none   &zFast_Mod LEFT_GUI F13  &kp SPACE  &zFastLayer 4 ESCAPE    &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &none    &none
-            >;
-
-            sensor-bindings = <&inc_dec_kp A B>;
         };
     };
 
