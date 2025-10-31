@@ -56,7 +56,7 @@ layers:
   - {t: entry, h: toggle}
   - {t: testy, h: testy}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
+  - {t: F13, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: sym}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
