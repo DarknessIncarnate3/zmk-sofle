@@ -16,10 +16,6 @@
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
-#define DEFAULT 0
-#define NAV 6
-#define SYM 5
-
 &msc {
     acceleration-exponent = <1>;      // 0
     time-to-max-speed-ms = <100>;       // 300
