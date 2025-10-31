@@ -422,7 +422,7 @@
 
         paren_open {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <8 9>;
+            key-positions = <21 22>;
             layers = <7 0 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
@@ -430,7 +430,7 @@
 
         paren_close {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <9 10>;
+            key-positions = <23 22>;
             layers = <7 0 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
@@ -438,7 +438,7 @@
 
         quote_all {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <10 8>;
+            key-positions = <21 23>;
             layers = <7 0 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
@@ -446,7 +446,7 @@
 
         brace_left {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <23 24>;
+            key-positions = <34 35>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
             layers = <7 0 4>;
@@ -454,7 +454,7 @@
 
         brace_right {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <24 25>;
+            key-positions = <36 35>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
             layers = <7 0 4>;
