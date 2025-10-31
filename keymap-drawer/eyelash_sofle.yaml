@@ -451,7 +451,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav, type: held}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: HRM, h: fn}
