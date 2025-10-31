@@ -48,30 +48,6 @@
 //				    testing
 // ------------------------------------------------------------------------------
 
- encoder_arrows_ud: encoder_arrows_ud {
-    compatible = "zmk,behavior-sensor-rotate";
-    #sensor-binding-cells = <0>;
-    bindings = <&kp DOWN>, <&kp UP>;
-};
-
-encoder_arrows_lr: encoder_arrows_lr {
-    compatible = "zmk,behavior-sensor-rotate";
-    #sensor-binding-cells = <0>;
-    bindings = <&kp LEFT>, <&kp RIGHT>;
-};
-
-encoder_volume: encoder_volume {
-    compatible = "zmk,behavior-sensor-rotate";
-    #sensor-binding-cells = <0>;
-    bindings = <&kp C_VOL_DOWN>, <&kp C_VOL_UP>;
-};
-
-encoder_brightness: encoder_brightness {
-    compatible = "zmk,behavior-sensor-rotate";
-    #sensor-binding-cells = <0>;
-    bindings = <&kp BRIGHTNESS_DOWN>, <&kp BRIGHTNESS_UP>;
-};
-
 
 
 
