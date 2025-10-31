@@ -100,10 +100,10 @@ layers:
   - D
   - '&mmv MOVE_X(-400)'
   - H
-  - N
-  - E
-  - I
-  - O
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '''', s: '"'}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - Z
