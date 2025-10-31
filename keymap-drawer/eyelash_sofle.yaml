@@ -456,12 +456,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: cole, h: fn}
   fn:
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - '&bt_0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - '&bt_4'
   - RGB SAI
   - '&bl BL_INC'
   - '&bl BL_DEC'
@@ -469,12 +469,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - '&bt_1'
   - {t: colet, h: toggle}
   - {t: cole, h: toggle}
   - {t: qwerty, h: toggle}
   - {t: game, h: toggle}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - '&bt_5'
   - RGB SAD
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -482,7 +482,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - '&bt_2'
   - {t: cole2, h: toggle}
   - {t: entry, h: toggle}
   - {t: sym, h: toggle}
@@ -495,7 +495,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bl BL_TOG'
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - '&bt_3'
   - {t: colet, h: toggle}
   - {t: fn, h: toggle}
   - {t: fkey, h: toggle}
