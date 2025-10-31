@@ -814,12 +814,12 @@ layers:
   - $$mdi:keyboard-tab$$
   - W
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Sft++
+  - +
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PAUSE BREAK
   - X
   - P
   - Ctl+D
