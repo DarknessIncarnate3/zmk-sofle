@@ -56,7 +56,7 @@ layers:
   - {t: cole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: F13, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F13, h: mod l}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: sym}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -836,7 +836,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
