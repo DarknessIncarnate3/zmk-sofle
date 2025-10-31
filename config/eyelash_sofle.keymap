@@ -928,11 +928,11 @@
         l_func {
             label = "func";
             bindings = <
-&none  &none      &none      &none     &none     &kp PRINTSCREEN    &none  &none  &none     &none      &none      &none      &none
-&none  &none      &none      &none     &none     &none              &none  &none  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN
-&none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &none              &none  &none  &kp LGUI  &kp LALT   &kp LSHFT  &kp LCTRL  &none
-&none  &none      &none      &none     &none     &none              &none  &none  &none     &none      &none      &none      &mo 7
-&none  &none      &none      &none     &none     &none              &none  &none  &none     &none      &none      &none
+&kp ESCAPE  &kp        &kp        &kp       &kp       &kp PRINTSCREEN    &kp  &kp  &kp       &kp        &kp        &kp        &kp
+&kp         &kp        &kp        &kp       &kp       &kp                &kp  &kp  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN
+&kp         &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &kp                &kp  &kp  &kp LGUI  &kp LALT   &kp LSHFT  &kp LCTRL  &kp
+&kp         &kp        &kp        &kp       &kp       &kp                &kp  &kp  &kp       &kp        &kp        &kp        &mo 7
+&kp         &kp        &kp        &kp       &kp       &kp                &kp  &kp  &kp       &kp        &kp        &kp
             >;
         };
     };
