@@ -65,6 +65,71 @@ layers:
   - {t: '$$mdi:backspace$$', h: mod r}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  HRM:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - '&mmv MOVE_Y(-400)'
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - {t: Q, h: '&alt_modlayer'}
+  - {t: W, h: '&ctrl_modlayer'}
+  - {t: F, h: '&gui_modlayer'}
+  - {t: P, h: f1}
+  - G
+  - '&mmv MOVE_Y(400)'
+  - J
+  - L
+  - U
+  - {t: Y, h: ql}
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: T}
+  - D
+  - '&mmv MOVE_X(-400)'
+  - H
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '''', s: '"'}
+  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
+  - {t: Z, h: repeat}
+  - {t: X, h: sym}
+  - {t: C, h: nav}
+  - V
+  - B
+  - '&mmv MOVE_X(400)'
+  - K
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, h: repeat, s: '?'}
+  - {t: '-', h: fn, s: _}
+  - {t: cole, h: toggle}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: F13, h: mod l, s: '$$mdi:keyboard-tab-reverse$$'}
+  - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-tab$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: sym}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', h: nav}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: mod r}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   pcole:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -129,71 +194,6 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  HRM:
-  - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - '&mmv MOVE_Y(-400)'
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - {t: Q, h: '&alt_modlayer'}
-  - {t: W, h: '&ctrl_modlayer'}
-  - {t: F, h: '&gui_modlayer'}
-  - {t: P, h: f1}
-  - G
-  - '&mmv MOVE_Y(400)'
-  - J
-  - L
-  - U
-  - {t: Y, h: ql}
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: T}
-  - D
-  - '&mmv MOVE_X(-400)'
-  - H
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '''', s: '"'}
-  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
-  - {t: Z, h: Z}
-  - {t: X, h: sym}
-  - {t: C, h: nav}
-  - V
-  - B
-  - '&mmv MOVE_X(400)'
-  - K
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '-', h: fn, s: _}
-  - {t: cole, h: toggle}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
-  - {t: F13, h: mod l, s: '$$mdi:keyboard-tab-reverse$$'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', h: sym}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', h: nav}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   qwerty:
   - {t: '`', s: '~'}
@@ -1016,7 +1016,7 @@ layers:
   - O
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - {t: Z, type: held}
   - X
   - C
   - V
@@ -1026,7 +1026,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, s: '?', type: held alternate}
   - {t: '-', h: fn, s: _}
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
