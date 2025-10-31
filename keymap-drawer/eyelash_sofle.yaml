@@ -517,7 +517,7 @@ layers:
   - '&yColour'
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: l_media, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: HRM, h: fn, type: held alternate}
   f1:
