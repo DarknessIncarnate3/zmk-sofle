@@ -27,7 +27,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: \}
   - A
   - R
   - S
@@ -92,7 +92,7 @@ layers:
   - {t: Y, h: ql}
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: \}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -157,7 +157,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: \}
   - A
   - R
   - S
@@ -222,7 +222,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: \}
   - A
   - S
   - D
@@ -547,7 +547,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: F4}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$', s: \}
   - F10
   - F4
   - F5
