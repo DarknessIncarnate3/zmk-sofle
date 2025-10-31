@@ -1368,82 +1368,55 @@ layers:
 combos:
 - p: [21, 22]
   k: (
-  l: [cole, qwerty, nav, hrm]
 - p: [23, 22]
   k: )
-  l: [cole, qwerty, nav, hrm]
 - p: [21, 23]
   k: '"'
-  l: [cole, qwerty, nav, hrm]
 - p: [34, 35]
   k: '{'
-  l: [cole, qwerty, nav, hrm]
 - p: [36, 35]
   k: '}'
-  l: [cole, qwerty, nav, hrm]
 - p: [43, 42]
   k: {t: '=', s: +}
-  l: [cole, qwerty, nav, hrm]
 - p: [47, 49]
   k: '@'
-  l: [cole, qwerty, nav, hrm]
 - p: [7, 8]
   k: $$mdi:apple-keyboard-command$$
-  l: [sym, cole, game]
 - p: [5, 4]
   k: $$mdi:apple-keyboard-command$$
-  l: [sym, cole, game]
 - p: [34, 35, 36, 49]
   k: '#'
-  l: [cole, qwerty, nav, hrm]
 - p: [39, 47, 48, 49]
   k: '%'
-  l: [cole, qwerty, nav, hrm]
 - p: [34, 36]
   k: $
-  l: [cole, qwerty, nav, hrm]
 - p: [30, 28]
   k: '*'
-  l: [cole, qwerty, nav, hrm]
 - p: [15, 17]
   k: +
-  l: [cole, qwerty, nav, hrm]
 - p: [32, 41, 42]
   k: {t: '-', s: _}
-  l: [cole, qwerty, nav, hrm]
 - p: [30, 31]
   k: {t: /, s: '?'}
-  l: [cole, qwerty, nav, hrm]
 - p: [16, 17]
   k: '>'
-  l: [cole, qwerty, nav, hrm]
 - p: [16, 15]
   k: <
-  l: [cole, qwerty, nav, hrm]
 - p: [30, 29]
   k: {t: ']', s: '}'}
-  l: [cole, qwerty, nav, hrm]
 - p: [29, 28]
   k: {t: '[', s: '{'}
-  l: [cole, qwerty, nav, hrm]
 - p: [37, 36]
   k: '&'
-  l: [cole, qwerty, nav, hrm]
 - p: [14, 15]
   k: ^
-  l: [cole, qwerty, nav, hrm]
 - p: [27, 28]
   k: '~'
-  l: [cole, qwerty, nav, hrm]
 - p: [33, 34]
   k: $$mdi:apple-keyboard-shift$$
-  l: [sym, cole, game]
 - p: [30, 31]
   k: $$mdi:apple-keyboard-shift$$
-  l: [sym, cole, game]
 - p: [46, 47]
   k: $$mdi:apple-keyboard-option$$
-  l: [sym, cole, game]
 - p: [44, 43]
   k: $$mdi:apple-keyboard-option$$
-  l: [sym, cole, game]
