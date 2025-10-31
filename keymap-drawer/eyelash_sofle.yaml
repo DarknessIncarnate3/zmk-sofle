@@ -324,7 +324,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: mod r}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HRM, h: fn}
+  - $$mdi:apple-keyboard-command$$
   sym:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
