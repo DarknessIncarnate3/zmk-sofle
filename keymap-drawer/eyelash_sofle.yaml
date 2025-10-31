@@ -377,7 +377,7 @@ layers:
   - .
   - {t: ',', s: <}
   - '?'
-  - {t: F12, h: fn}
+  - fn
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
