@@ -770,7 +770,6 @@
 &zFast_Mod LEFT_ALT EQUAL  &kp Z           &kp X                     &kp C        &kp V       &kp B                   &mmv MOVE_X(400)   &kp N                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 15 MINUS
 &to 0                      &kp LEFT_SHIFT  &zFastLayer 16 BACKSPACE  &xTabGuiF13  &xTabSpace  &zFastLayer 7 ESCAPE    &none              &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &mo 10   &none
             >;
-
             sensor-bindings = <&inc_dec_kp A B>;
         };
 
@@ -783,7 +782,6 @@ display-name = "game";
 &kp LSHFT         &kp Z   &kp X      &kp C      &kp V         &kp B        &kp RIGHT  &kp K                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH      &zFastLayer 15 MINUS
 &kp C_MUTE        &mo 9   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp TILDE    &kp SPACE  &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 16 BACKSPACE  &none    &kp LEFT_GUI
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -825,7 +823,7 @@ display-name = "game";
         };
 
         l_repeat {
-            label = "repeat";
+            display-name = "repeat";
             bindings = <
 &kp ESCAPE        &kp N1  &kp N2     &kp N3            &kp N4     &kp N5          &kp UP     &kp N6     &kp N7          &kp N8     &kp N9   &kp N0    &kp BSPC
 &kp TAB           &kp Q   &kp W      &kp F             &kp P      &kp G           &kp DOWN   &kp J      &kp L           &kp U      &kp Y    &kp SEMI  &kp BSLH
@@ -833,11 +831,11 @@ display-name = "game";
 &kp LSHFT         &kp Z   &kp X      &kp C             &kp V      &kp B           &kp RIGHT  &kp K      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &zFastLayer 15 MINUS
 &kp C_MUTE        &none   &kp SPACE  &kp LEFT_CONTROL  &kp SPACE  &kp LEFT_GUI    &kp SPACE  &kp ENTER  &kp LEFT_SHIFT  &none      &none    &none
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         l_gsub {
+            display-name = "gsub";
             bindings = <
 &kp GRAVE  &kp F1           &kp F2  &kp F3           &kp F4           &kp F5             &trans  &trans  &trans    &trans     &trans     &trans     &trans
 &kp M      &kp KP_NUMBER_1  &trans  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &trans  &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
@@ -848,6 +846,7 @@ display-name = "game";
         };
 
         l_f1 {
+            display-name = "f1";
             bindings = <
 &none    &none    &none   &none   &none   &none    &none  &none  &none     &none            &none      &none      &none
 &kp TAB  &kp F11  &kp F1  &kp F2  &kp F3  &none    &none  &none  &none     &none            &none      &none      &none
@@ -855,11 +854,10 @@ display-name = "game";
 &none    &kp F12  &kp F7  &kp F8  &kp F9  &none    &none  &none  &none     &none            &none      &none      &mo 15
 &none    &none    &none   &none   &none   &none    &none  &none  &none     &kp PRINTSCREEN  &none      &none
             >;
-
-            label = "f1";
         };
 
         layer_ql {
+            display-name = "ql";
             bindings = <
 &none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &kp DEL   &kp LC(DEL)   &kp RET  &none  &kp PRINTSCREEN
@@ -867,11 +865,10 @@ display-name = "game";
 &none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none  &mo 15
 &none  &none  &none  &none  &none  &none    &none  &none  &none     &none         &none    &none
             >;
-
-            label = "ql";
         };
 
         l_alt {
+            display-name = "alt";
             bindings = <
 &none  &none  &none      &none        &none      &none      &none  &none      &none     &none      &none      &none      &none
 &none  &none  &kp LCTRL  &none        &kp D      &kp F4     &none  &kp P      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none
@@ -882,7 +879,7 @@ display-name = "game";
         };
 
         l_ctrl {
-            label = "ctrl";
+            display-name = "ctrl";
             bindings = <
 &none           &none           &none  &none        &none      &none      &none  &none      &none     &none      &none      &none      &none
 &kp LS(ESCAPE)  &kp LEFT_SHIFT  &none  &kp Z        &kp Y      &kp Q      &none  &kp T      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN
@@ -893,7 +890,7 @@ display-name = "game";
         };
 
         l_gui {
-            label = "gui";
+            display-name = "gui";
             bindings = <
 &none        &none        &none      &none    &none      &none      &none  &none      &none      &none      &none      &none       &none
 &kp ESC      &kp LCTRL    &kp LSHFT  &none    &kp E      &kp Q      &none  &none      &kp HOME   &kp PG_DN  &kp PG_UP  &kp END     &kp PRINTSCREEN
@@ -904,7 +901,7 @@ display-name = "game";
         };
 
         l_modl {
-            label = "mod l";
+            display-name = "mod l";
             bindings = <
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans                    &trans
 &trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &mo 10    &trans    &trans  &trans  &trans  &trans  &trans  &zHomeLayer 11 SEMICOLON  &none
@@ -915,7 +912,7 @@ display-name = "game";
         };
 
         l_modr {
-            label = "mod r";
+            display-name = "mod r";
             bindings = <
 &trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
 &trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 10 P  &trans    &trans  &trans  &trans    &trans    &trans     &mo 11     &trans
@@ -926,7 +923,7 @@ display-name = "game";
         };
 
         l_func {
-            label = "func";
+            display-name = "func";
             bindings = <
 &kp ESCAPE  &none      &none      &none     &kp PAUSE_BREAK  &kp PRINTSCREEN    &none  &none  &none     &none      &none      &none      &none
 &none       &none      &none      &none     &none            &none              &none  &none  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN
@@ -937,6 +934,7 @@ display-name = "game";
         };
 
         l_media {
+            display-name = "media";
             bindings = <
 &none  &none         &none       &none       &none               &none               &kp UP     &none             &none      &none     &none   &none      &none
 &none  &none         &none       &none       &none               &kp C_MUTE          &kp DOWN   &none             &kp P      &kp N     &none   &none      &none
@@ -947,6 +945,7 @@ display-name = "game";
         };
 
         l_mouse {
+            display-name = "mouse";
             bindings = <
 &none    &none      &none      &none       &none          &none    &none  &none  &none           &none           &none         &none            &none
 &kp TAB  &none      &mkp MCLK  &mkp RCLK   &mkp LCLK      &kp X    &none  &none  &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp BACKSPACE
@@ -957,6 +956,7 @@ display-name = "game";
         };
 
         layer_fn {
+            display-name = "fn";
             bindings = <
 &bt_0            &none  &none  &none  &none   &bt_4       &rgb_ug RGB_SAI  &bl BL_INC            &bl BL_DEC            &none   &none  &none          &bt BT_CLR
 &bt_1            &none  &to 4  &to 5  &none   &bt_5       &rgb_ug RGB_SAD  &none                 &none                 &none   &none  &none          &none
@@ -966,7 +966,6 @@ display-name = "game";
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-            label = "fn";
         };
     };
 
