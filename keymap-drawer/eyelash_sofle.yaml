@@ -650,6 +650,71 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  '10':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - D
+  - F4
+  - ''
+  - P
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:keyboard-tab$$
+  - ''
+  - ''
+  - ''
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - fn
+  - ''
+  - ''
+  - ''
+  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [8, 9]
   k: (
