@@ -411,7 +411,7 @@ layers:
   - {t: '3', s: '#'}
   - Ctl+X
   - '&mmv MOVE_Y(400)'
-  - $$mdi:pan-up$$
+  - '*'
   - HOME
   - PgUp
   - PgDn
@@ -424,7 +424,7 @@ layers:
   - {t: '6', s: ^}
   - Ctl+C
   - '&mmv MOVE_X(-400)'
-  - $$mdi:pan-down$$
+  - +
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -437,7 +437,7 @@ layers:
   - {t: '9', s: (}
   - Ctl+V
   - '&mmv MOVE_X(400)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '-', s: _}
   - PG DN
   - END
   - HOME
