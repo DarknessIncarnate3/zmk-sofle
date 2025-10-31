@@ -96,7 +96,7 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: T}
+  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
   - D
   - '&mmv MOVE_X(-400)'
   - H
