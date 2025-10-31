@@ -396,7 +396,7 @@
     xTabModl: xTabModl {
         compatible = "zmk,behavior-mod-morph";
         label = "XTABMODL";
-        bindings = <&zFastLayer 13 F13>, <&kp TAB>;
+        bindings = <&zFastLayer 13 F13>, <&kp LS(TAB)>;
 
         #binding-cells = <0>;
         mods = <(MOD_LALT|MOD_RCTL)>;
