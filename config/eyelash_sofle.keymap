@@ -39,13 +39,13 @@
 
     #define COMBO_SYM_SETTINGS_COMMON
 
-    layers = <0 3 6 1>;
+    layers = <0 1 2 3>;
     timeout-ms = <30>;
     require-prior-idle-ms = <150>;
 
     #define COMBO_MOD_SETTINGS_COMMON
 
-    layers = <0 3 6 1>;
+    layers = <0 1 2 3>;
     timeout-ms = <30>;
     slow-release;
     require-prior-idle-ms = <150>;
