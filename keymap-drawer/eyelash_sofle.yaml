@@ -331,11 +331,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (
   - )
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '%'
   - '&mmv MOVE_Y(-400)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - (
+  - )
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
