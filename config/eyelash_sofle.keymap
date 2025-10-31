@@ -36,48 +36,13 @@
 
         tap-ms = <100>;
     };
-encoder_morph: encoder_morph {
-            compatible = "zmk,behavior-conditional-morph";
-            #binding-cells = <0>;
 
-            bindings = <&encoder_arrows>,  /* default */
-                       <&encoder_volume>,  /* ctrl */
-                       <&encoder_brightness>, /* ctrl+shift */
-                       <&encoder_rgb_brightness>, /* ctrl+alt */
-                       <&encoder_rgb_saturation>; /* alt+shift */
 
-            conditions = <&if_ctrl>, <&if_ctrl_shift>, <&if_ctrl_alt>, <&if_alt_shift>;
-        };
 
-        encoder_arrows: encoder_arrows {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp DOWN>, <&kp UP>;
-        };
 
-        encoder_volume: encoder_volume {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp C_VOL_DOWN>, <&kp C_VOL_UP>;
-        };
 
-        encoder_brightness: encoder_brightness {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp BRIGHTNESS_DOWN>, <&kp BRIGHTNESS_UP>;
-        };
 
-        encoder_rgb_brightness: encoder_rgb_brightness {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp RGB_BRI_DOWN>, <&kp RGB_BRI_UP>;
-        };
 
-        encoder_rgb_saturation: encoder_rgb_saturation {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp RGB_SAT_DOWN>, <&kp RGB_SAT_UP>;
-        };
     zHomeMod: zHomeMod {
         compatible = "zmk,behavior-hold-tap";
         label = "ZHOMEMOD";
