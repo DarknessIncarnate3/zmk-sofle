@@ -412,10 +412,10 @@ layers:
   - Ctl+X
   - '&mmv MOVE_Y(400)'
   - $$mdi:pan-up$$
-  - PG DN
-  - END
   - HOME
-  - PG UP
+  - PgUp
+  - PgDn
+  - END
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
