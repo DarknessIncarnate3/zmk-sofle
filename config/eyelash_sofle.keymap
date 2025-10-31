@@ -894,11 +894,11 @@
         l_modr {
             label = "mod r";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &mo 9      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 7
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
+&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
+&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &mo 9      &trans
+&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
+&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 7
+&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
 
