@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: mod r}
-  - l_mouse
+  - f1
   - {t: \, h: func, s: '|'}
   HRM:
   - $$mdi:keyboard-esc$$
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: mod r}
-  - l_mouse
+  - f1
   - {t: \, h: func, s: '|'}
   pcole:
   - $$mdi:keyboard-esc$$
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
-  - l_mouse
+  - f1
   - {t: /, h: func, s: '?'}
   qwerty:
   - $$mdi:keyboard-esc$$
@@ -258,7 +258,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
-  - l_mouse
+  - f1
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   game:
   - $$mdi:keyboard-esc$$
@@ -509,7 +509,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: /, h: fn, s: '?'}
   - PLAY PAUSE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - l_mouse
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
@@ -603,7 +603,7 @@ layers:
   - F11
   - F1
   - F2
-  - {t: F3, type: held}
+  - {t: F3, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -648,7 +648,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   ql:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1277,8 +1277,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - BACK
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: BACK, type: held}
   - FORWARD
   - V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1289,16 +1289,16 @@ layers:
   - $$mdi:pan-right$$
   - fn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   l_gsub:
   - {t: '`', s: '~'}
