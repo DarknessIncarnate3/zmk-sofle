@@ -452,9 +452,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav, type: held}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', type: held alternate}
+  - {t: '$$mdi:keyboard-tab$$', h: cole, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: HRM, h: fn}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   fn:
   - '&bt_0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
