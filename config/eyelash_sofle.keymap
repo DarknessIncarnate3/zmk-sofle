@@ -403,6 +403,16 @@
         keep-mods = <(MOD_LALT)>;
     };
 
+    xTabGuiF13: xTabGuiF13 {
+        compatible = "zmk,behavior-mod-morph";
+        label = "XTABGUIF13";
+        bindings = <&zFast_Mod LEFT_GUI F13>, <&kp LS(TAB)>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LALT|MOD_RCTL)>;
+        keep-mods = <(MOD_LALT)>;
+    };
+
     // ------------------------------------------------------------------------------
     //				     combos
     // ------------------------------------------------------------------------------
