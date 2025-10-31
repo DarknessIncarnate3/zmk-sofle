@@ -803,6 +803,16 @@
 
             label = "ql";
         };
+
+        layer_10 {
+            bindings = <
+&kp  &kp  &kp        &kp          &kp        &kp        &kp  &kp    &kp       &kp        &kp        &kp        &kp
+&kp  &kp  &kp LCTRL  &kp          &kp D      &kp F4     &kp  &kp P  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp
+&kp  &kp  &kp LSHFT  &kp LS(TAB)  &kp TAB    &kp        &kp  &kp    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp
+&kp  &kp  &kp        &kp          &kp        &kp        &kp  &kp    &kp       &kp        &kp        &kp        &mo 7
+&kp  &kp  &kp        &kp ESC      &kp SPACE  &kp RET    &kp  &kp    &kp       &kp        &kp        &kp
+            >;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
