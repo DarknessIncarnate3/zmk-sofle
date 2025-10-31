@@ -55,7 +55,7 @@ layers:
   - {t: '-', h: fn, s: _}
   - {t: entry, h: toggle}
   - {t: testy, h: testy}
-  - '&capsShift LEFT_SHIFT 0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: sym}
@@ -120,7 +120,7 @@ layers:
   - {t: fkey, h: fkey}
   - {t: entry, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - '&capsShift LEFT_SHIFT 0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
@@ -185,7 +185,7 @@ layers:
   - {t: fkey, h: fkey}
   - {t: entry, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - '&capsShift LEFT_SHIFT 0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
@@ -318,7 +318,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:arrow-right-bold$$
-  - '&xTabLayer'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - $$mdi:keyboard-space$$
@@ -575,7 +575,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - '&capsShift LEFT_SHIFT 0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
@@ -705,7 +705,7 @@ layers:
   - {t: fkey, h: fkey, type: held}
   - {t: entry, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - '&capsShift LEFT_SHIFT 0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
@@ -750,10 +750,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&ztestysticky LEFT_GUI LEFT_GUI'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - '&ztestysticky LEFT_CONTROL LEFT_CONTROL'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -880,10 +880,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&ztestysticky LEFT_GUI LEFT_GUI'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - '&l13'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
