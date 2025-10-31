@@ -269,9 +269,54 @@
 
     bt_1: bt_1 {
         compatible = "zmk,behavior-tap-dance";
-        label = "bluetooth 1";
+        label = "bt_1";
+        #binding-cells = <0>;
+        bindings = <&bt BT_SEL 1>, <&bt BT_DISC 1>;
+
+        tapping-term-ms = <150>;
+    };
+
+    bt_0: bt_0 {
+        compatible = "zmk,behavior-tap-dance";
+        label = "BT_0";
         #binding-cells = <0>;
         bindings = <&bt BT_SEL 0>, <&bt BT_DISC 0>;
+
+        tapping-term-ms = <150>;
+    };
+
+    bt_2: bt_2 {
+        compatible = "zmk,behavior-tap-dance";
+        label = "BT_2";
+        #binding-cells = <0>;
+        bindings = <&bt BT_SEL 2>, <&bt BT_DISC 2>;
+
+        tapping-term-ms = <150>;
+    };
+
+    bt_3: bt_3 {
+        compatible = "zmk,behavior-tap-dance";
+        label = "BT_3";
+        #binding-cells = <0>;
+        bindings = <&bt BT_SEL 3>, <&bt BT_DISC 3>;
+
+        tapping-term-ms = <150>;
+    };
+
+    bt_4: bt_4 {
+        compatible = "zmk,behavior-tap-dance";
+        label = "BT_4";
+        #binding-cells = <0>;
+        bindings = <&bt BT_SEL 4>, <&bt BT_DISC 4>;
+
+        tapping-term-ms = <150>;
+    };
+
+    bt_5: bt_5 {
+        compatible = "zmk,behavior-tap-dance";
+        label = "BT_5";
+        #binding-cells = <0>;
+        bindings = <&bt BT_SEL 4>, <&bt BT_DISC 4>;
 
         tapping-term-ms = <150>;
     };
