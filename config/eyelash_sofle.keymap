@@ -253,7 +253,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "Backlight Up";
         #binding-cells = <0>;
-        bindings = <&bl BL_INC>, <&bl BL_SET 100>;
+        bindings = <&bl BL_INC>, <&bl_on_max>;
 
         tapping-term-ms = <150>;
     };
@@ -265,13 +265,6 @@
         bindings = <&bl BL_DEC>, <&bl BL_SET 40>;
 
         tapping-term-ms = <150>;
-    };
-
-    bl_toggle: bl_toggle {
-        compatible = "zmk,behavior-tap-dance";
-        label = "Backlight Toggle";
-        #binding-cells = <0>;
-        bindings = <&bl BL_ON>, <&bl BL_OFF>;
     };
 
     combos {
@@ -561,6 +554,13 @@
                 <&mo 14>;
 
             label = "GUI_MODLAYER";
+        };
+
+        bl_on_max: bl_setting {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bl BL_ON &bl BL_SET 100>;
+            label = "BL_SETTING";
         };
     };
 
