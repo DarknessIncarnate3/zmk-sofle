@@ -262,18 +262,18 @@ layers:
   - {t: HRM, h: fn}
   sym:
   - $$mdi:keyboard-esc$$
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - Ctl+R
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
   - '%'
   - {t: '-', s: _}
@@ -286,7 +286,7 @@ layers:
   - )
   - ':'
   - {t: ;, s: ':'}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '"'
   - ^
   - $
