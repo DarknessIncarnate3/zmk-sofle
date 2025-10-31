@@ -969,7 +969,7 @@
             >;
         };
 
-        layer_20 {
+        l_gsub {
             bindings = <
 &kp GRAVE  &kp F1           &kp F2  &kp F3           &kp F4           &kp F5             &kp  &kp  &kp  &kp  &kp  &kp  &kp
 &kp M      &kp KP_NUMBER_1  &kp     &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &kp  &kp  &kp  &kp  &kp  &kp  &kp
