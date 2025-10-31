@@ -60,7 +60,15 @@ encoder_arrows: encoder_arrows {
 };
 
 
+flex_encoder_morph: flex_encoder_morph {
+    compatible = "zmk,behavior-conditional-morph";
+    #binding-cells = <0>;
 
+    bindings = <&encoder_arrows>,  /* default (no modifier) */
+               <&encoder_volume>;  /* when Ctrl is held */
+
+    conditions = <&if_ctrl>;
+};
 
 
 
