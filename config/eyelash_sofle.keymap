@@ -28,12 +28,11 @@
     trigger-period-ms = <16>;
 };
 
- #define COMBO_SYM_SETTINGS_COMMON    \
+#define COMBO_SYM_SETTINGS_COMMON    \
     layers = <0 1 2 3>;    \
     timeout-ms = <15>;    \
     require-prior-idle-ms = <150>;    \
-
-    #define COMBO_MOD_SETTINGS_COMMON    \
+#define COMBO_MOD_SETTINGS_COMMON    \
     layers = <0 1 2 3>;    \
     timeout-ms = <15>;    \
     slow-release;    \
@@ -47,8 +46,6 @@
 
         tap-ms = <100>;
     };
-
-   
 
     // ------------------------------------------------------------------------------
     //				   conditions
@@ -757,7 +754,7 @@
         layer_nav {
             display-name = "nav";
             bindings = <
-&none             &kp HASH   &kp UNDERSCORE  &kp EXCLAMATION  &kp EQUAL        &kp PERCENT                       &mmv MOVE_Y(-400)  &kp AMPERSAND        &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSPACE
+&none             &kp HASH   &kp UNDERSCORE  &kp EXCLAMATION  &kp EQUAL        &kp PERCENT                       &mmv MOVE_Y(-400)  &kp AMPERSAND        &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp DELETE
 &kp TAB           &kp COMMA  &kp N1          &kp N2           &kp N3           &kp LC(X)                         &mmv MOVE_Y(400)   &kp ASTERISK         &kp HOME                    &kp PG_DN              &kp PG_UP      &kp END           &kp BACKSPACE
 &kp LEFT_SHIFT    &kp N0     &kp N4          &kp N5           &kp N6           &kp LC(C)                         &mmv MOVE_X(-400)  &kp PLUS             &kp LEFT                    &kp DOWN               &kp UP         &kp RIGHT         &kp RET
 &kp LALT          &kp DOT    &kp N7          &kp N8           &kp N9           &kp LC(V)                         &mmv MOVE_X(400)   &kp MINUS            &kp TAB                     &kp ENTER              &kp ESCAPE     &kp DELETE        &zFastLayer 20 SLASH
