@@ -94,8 +94,8 @@ layers:
   - {t: \, s: '|'}
   - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: F4}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: sym}
-  - {t: S, h: nav}
+  - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - T
   - D
   - '&mmv MOVE_X(-400)'
@@ -354,7 +354,7 @@ layers:
   - {t: \, s: '|'}
   - '"'
   - ^
-  - {t: $, type: held alternate}
+  - $
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '@'
@@ -419,8 +419,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
-  - {t: '4', s: $, type: held alternate}
-  - {t: '5', s: '%', type: held alternate}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - Ctl+C
   - '&mmv MOVE_X(-400)'
@@ -484,8 +484,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bt_2'
   - {t: cole, h: toggle}
-  - {t: entry, h: toggle, type: held alternate}
-  - {t: sym, h: toggle, type: held alternate}
+  - {t: entry, h: toggle}
+  - {t: sym, h: toggle}
   - {t: nav, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRD
@@ -614,7 +614,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
-  - {t: Sft++, type: held alternate}
+  - Sft++
   - {t: '=', s: +}
   - Sft+%
   - {t: '$$mdi:minus-circle-outline$$', type: none}
