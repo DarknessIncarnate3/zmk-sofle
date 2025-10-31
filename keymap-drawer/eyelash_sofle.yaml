@@ -329,8 +329,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '#'
   - _
-  - (
-  - )
+  - '!'
+  - {t: '=', s: +}
   - '%'
   - '&mmv MOVE_Y(-400)'
   - '&'
