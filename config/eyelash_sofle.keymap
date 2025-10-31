@@ -37,17 +37,16 @@
         tap-ms = <100>;
     };
 
-    #define COMBO_SYM_SETTINGS_COMMON
+    #define COMBO_SYM_SETTINGS_COMMON \
+    layers = <0 1 2 3>; \
+    timeout-ms = <15>; \
+    require-prior-idle-ms = <150
 
-    layers = <0 1 2 3>;
-    timeout-ms = <15>;
-    require-prior-idle-ms = <150>;
+    #define COMBO_MOD_SETTINGS_COMMON \
 
-    #define COMBO_MOD_SETTINGS_COMMON
-
-    layers = <0 1 2 3>;
-    timeout-ms = <15>;
-    slow-release;
+    layers = <0 1 2 3>; \
+    timeout-ms = <15>; \
+    slow-release; \
     require-prior-idle-ms = <150>;
 
     // ------------------------------------------------------------------------------
