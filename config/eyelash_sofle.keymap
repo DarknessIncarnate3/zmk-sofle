@@ -42,54 +42,17 @@
 #				   conditions
 # ------------------------------------------------------------------------------
 
-behaviors {
 
-        encoder_arrows_ud: encoder_arrows_ud {
+
+% ------------------------------------------------------------------------------
+%				    testing
+% ------------------------------------------------------------------------------
+
+   encoder_arrows_ud: encoder_arrows_ud {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&kp DOWN>, <&kp UP>;
         };
-
-        encoder_arrows_lr: encoder_arrows_lr {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp LEFT>, <&kp RIGHT>;
-        };
-
-        encoder_volume: encoder_volume {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp C_VOL_DOWN>, <&kp C_VOL_UP>;
-        };
-
-        encoder_brightness: encoder_brightness {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp BRIGHTNESS_DOWN>, <&kp BRIGHTNESS_UP>;
-        };
-    };
-
-
- encoder_mod_morph: encoder_mod_morph {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-
-            bindings = <
-                &encoder_arrows_ud      // default: no modifier
-                &encoder_volume         // Ctrl
-                &encoder_arrows_lr      // Shift
-                &encoder_brightness    // Alt
-            >;
-
-            mods = <
-                0                        // default (no mods)
-                (MOD_LCTL|MOD_RCTL)      // Ctrl
-                (MOD_LSFT|MOD_RSFT)      // Shift
-                (MOD_LALT|MOD_RALT)      // Alt
-            >;
-        };
-
-
 
 # ------------------------------------------------------------------------------
 #				   behaviors
