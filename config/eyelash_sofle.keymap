@@ -326,7 +326,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "BT_5";
         #binding-cells = <0>;
-        bindings = <&bt BT_SEL 4>, <&bt BT_DISC 4>;
+        bindings = <&bt BT_SEL 5>, <&bt BT_DISC 5>;
 
         tapping-term-ms = <150>;
     };
