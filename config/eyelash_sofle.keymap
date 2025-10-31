@@ -877,10 +877,10 @@
         l_modr {
             display-name = "mod r";
             bindings = <
-&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
-&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 10 P  &trans    &trans  &trans  &trans    &trans    &trans     &mo 11     &trans
-&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
-&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 20
+&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans                    &trans
+&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 10 P  &trans    &trans  &trans  &trans    &trans    &trans     &zFastLayer 11 SEMICOLON  &trans
+&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL                 &trans
+&trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans                    &mo 20
 &trans  &trans          &trans           &trans          &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
