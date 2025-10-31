@@ -951,11 +951,11 @@
 
         l_media {
             bindings = <
-&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp       &kp       &kp     &kp        &kp
-&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp P     &kp N     &kp     &kp        &kp
-&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp
-&kp  &kp LEFT  &kp DOWN  &kp RIGHT  &kp UP  &kp    &kp  &kp  &kp       &kp       &kp     &kp        &mo 7
-&kp  &kp       &kp       &kp        &kp     &kp    &kp  &kp  &kp       &kp       &kp     &kp
+&kp  &kp           &kp         &kp         &kp                 &kp    &kp  &kp  &kp       &kp       &kp     &kp        &kp
+&kp  &kp           &kp         &kp         &kp                 &kp    &kp  &kp  &kp P     &kp N     &kp     &kp        &kp
+&kp  &kp C_REWIND  &kp C_PREV  &kp C_NEXT  &kp C_FAST_FORWARD  &kp    &kp  &kp  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp
+&kp  &kp LEFT      &kp DOWN    &kp RIGHT   &kp UP              &kp    &kp  &kp  &kp       &kp       &kp     &kp        &mo 7
+&kp  &kp           &kp         &kp         &kp                 &kp    &kp  &kp  &kp       &kp       &kp     &kp
             >;
         };
     };
