@@ -31,8 +31,7 @@
 #define COMBO_SYM_SETTINGS_COMMON    \
     layers = <0 1 2 3>;    \
     timeout-ms = <15>;    \
-    require-prior-idle-ms = <150>;    
-
+    require-prior-idle-ms = <150>;
 #define COMBO_MOD_SETTINGS_COMMON    \
     layers = <0 1 2 3>;    \
     timeout-ms = <15>;    \
@@ -872,7 +871,7 @@
             display-name = "gui";
             bindings = <
 &none        &none        &none      &none    &none      &none      &none  &none      &none      &none      &none      &none       &none
-&kp ESC      &kp LCTRL    &kp LSHFT  &none    &kp E      &kp Q      &none  &none      &kp HOME   &kp PG_DN  &kp PG_UP  &kp END     &kp PRINTSCREEN
+&kp ESC      &kp LCTRL    &kp LSHFT  &none    &kp E      &kp R      &none  &kp Q      &kp HOME   &kp PG_DN  &kp PG_UP  &kp END     &kp PRINTSCREEN
 &kp LA(DOT)  &kp LS(TAB)  &kp LS(S)  &none    &kp TAB    &kp W      &none  &kp PLUS   &kp LEFT   &kp DOWN   &kp RIGHT  &kp UP      &kp PAUSE_BREAK
 &kp X        &kp P        &kp LC(D)  &kp M    &kp D      &kp L      &none  &kp MINUS  &kp R      &kp V      &none      &kp LC(N4)  &mo 20
 &none        &none        &none      &kp ESC  &kp SPACE  &kp RET    &none  &kp RET    &kp LSHFT  &none      &none      &none
