@@ -863,7 +863,7 @@ layers:
   - '&alt_modlayer'
   - '&ctrl_modlayer'
   - '&gui_modlayer'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - f1
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -928,7 +928,7 @@ layers:
   - {t: Q, h: '&alt_modlayer'}
   - {t: W, h: '&ctrl_modlayer'}
   - {t: F, h: '&gui_modlayer'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: P, h: f1}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
