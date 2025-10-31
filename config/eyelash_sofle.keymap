@@ -57,8 +57,6 @@
     // ------------------------------------------------------------------------------
     //				   conditions
     // ------------------------------------------------------------------------------
-
-
     // ------------------------------------------------------------------------------
     //				    testing
     // ------------------------------------------------------------------------------
@@ -869,7 +867,7 @@
             display-name = "mod l";
             bindings = <
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans                    &trans
-&trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &mo 10    &trans    &trans  &trans  &trans  &trans  &trans  &zHomeLayer 11 SEMICOLON  &none
+&trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &mo 10    &trans    &trans  &trans  &trans  &trans  &trans  &zFastLayer 11 SEMICOLON  &none
 &trans  &kp LCTRL      &kp LSHFT       &kp LALT       &kp LGUI  &trans    &trans  &trans  &trans  &trans  &trans  &trans                    &trans
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans                    &mo 20
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
