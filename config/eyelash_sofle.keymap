@@ -875,8 +875,8 @@
             label = "mod r";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
-&trans  &none   &none   &none   &trans  &trans    &trans  &trans  &trans    &trans    &trans     &mo 8      &none
-&trans  &none   &none   &none   &none   &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &mo 8      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 6
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
