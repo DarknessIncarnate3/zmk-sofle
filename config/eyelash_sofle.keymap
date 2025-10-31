@@ -383,6 +383,26 @@
         hold-trigger-key-positions = <6 7 8 9 10 11 12 19 20 21 22 23 24 25 32 33 34 35 36 37 38 45 46 47 48 49 50 51 52 58 61 62 63 53 54 55 56 57 59 60>;
     };
 
+    xTabSpace: xTabSpace {
+        compatible = "zmk,behavior-mod-morph";
+        label = "XTABSPACE";
+        bindings = <&kp SPACE>, <&kp TAB>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LALT|MOD_RCTL)>;
+        keep-mods = <(MOD_LALT)>;
+    };
+
+    new_behavior: new_behavior {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NEW_BEHAVIOR";
+        bindings = <&zFastLayer 13 F13>, <&kp TAB>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LALT|MOD_RCTL)>;
+        keep-mods = <(MOD_LALT)>;
+    };
+
     // ------------------------------------------------------------------------------
     //				     combos
     // ------------------------------------------------------------------------------
