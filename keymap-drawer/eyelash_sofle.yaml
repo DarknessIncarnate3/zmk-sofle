@@ -1300,9 +1300,71 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  '20': ['', F1, F2, F3, F4, F5, '', '', '', '', '', '', '', M, KP 1, '', KP 2, KP 3, KP 4, '', '', '', '', '', '', '', '$$mdi:apple-keyboard-control$$', '', '',
-    '', KP 5, KP 6, '', '', '', '', '', '', '', '$$mdi:apple-keyboard-shift$$', I, N, O, L, F5, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '']
+  '20':
+  - {t: '`', s: '~'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - M
+  - KP 1
+  - ''
+  - KP 2
+  - KP 3
+  - KP 4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - ''
+  - ''
+  - KP 5
+  - KP 6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - I
+  - N
+  - O
+  - L
+  - F5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [8, 9]
   k: (
