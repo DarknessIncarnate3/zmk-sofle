@@ -45,14 +45,14 @@
 
     layers = <0 3 6 1>;
     timeout-ms = <30>;
-    require-prior-idle-ms = <120>;
+    require-prior-idle-ms = <150>;
 
     #define COMBO_MOD_SETTINGS_COMMON
 
-    layers = <7 0 4>;
+    layers = <0 3 6 1> ;
     timeout-ms = <30>;
     slow-release;
-    require-prior-idle-ms = <120>;
+    require-prior-idle-ms = <150>;
 
     // ------------------------------------------------------------------------------
     //				   conditions
