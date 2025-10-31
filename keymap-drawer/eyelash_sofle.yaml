@@ -438,9 +438,9 @@ layers:
   - Ctl+V
   - '&mmv MOVE_X(400)'
   - {t: '-', s: _}
-  - PG DN
-  - END
-  - HOME
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG UP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
