@@ -83,7 +83,7 @@ layers:
   - {t: Q, h: '&alt_modlayer'}
   - {t: W, h: '&ctrl_modlayer'}
   - {t: F, h: '&gui_modlayer'}
-  - {t: P, h: fkey}
+  - {t: P, h: f1}
   - G
   - '&mmv MOVE_Y(400)'
   - J
@@ -117,7 +117,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: fkey, h: fkey}
+  - {t: f1, h: f1}
   - {t: entry, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - {t: F13, h: '$$mdi:apple-keyboard-control$$'}
@@ -182,7 +182,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: fkey, h: fkey}
+  - {t: f1, h: f1}
   - {t: entry, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -249,7 +249,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', h: cole, s: _}
   - $$mdi:volume-off$$
-  - fkey
+  - f1
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
@@ -498,7 +498,7 @@ layers:
   - '&bt_3'
   - {t: cole, h: toggle}
   - {t: fn, h: toggle, type: held alternate}
-  - {t: fkey, h: toggle, type: held alternate}
+  - {t: f1, h: toggle, type: held alternate}
   - {t: ql, h: toggle}
   - '&yOutput'
   - RGB BRI
@@ -520,7 +520,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: HRM, h: fn, type: held alternate}
-  fkey:
+  f1:
   - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F10
