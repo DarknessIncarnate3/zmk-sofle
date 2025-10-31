@@ -704,11 +704,11 @@
 
         layer_nav {
             bindings = <
-&none             &none      &none   &none           &none            &none         &mmv MOVE_Y(-400)  &none                &none      &none        &none          &none         &kp BACKSPACE
-&kp TAB           &kp COMMA  &kp N1  &kp N2          &kp N3           &kp LC(X)     &mmv MOVE_Y(400)   &kp ASTERISK         &kp HOME   &kp PAGE_UP  &kp PAGE_DOWN  &kp END       &kp BACKSPACE
-&kp LEFT_SHIFT    &kp N0     &kp N4  &kp N5          &kp N6           &kp LC(C)     &mmv MOVE_X(-400)  &kp PLUS             &kp LEFT   &kp DOWN     &kp UP         &kp RIGHT     &kp RET
-&kp LALT          &kp DOT    &kp N7  &kp N8          &kp N9           &kp LC(V)     &mmv MOVE_X(400)   &kp MINUS            &kp TAB    &kp ENTER    &kp ESCAPE     &kp DELETE    &zFastLayer 7 SLASH
-&kp C_PLAY_PAUSE  &none      &none   &kp LEFT_ARROW  &kp RIGHT_ARROW  &xEntertab    &none              &zFastLayer 6 ENTER  &kp SPACE  &kp SPACE    &none          &z2layer 7 1
+&none             &none      &none   &none           &none            &none         &mmv MOVE_Y(-400)  &none                &none      &none              &none          &none       &kp BACKSPACE
+&kp TAB           &kp COMMA  &kp N1  &kp N2          &kp N3           &kp LC(X)     &mmv MOVE_Y(400)   &kp ASTERISK         &kp HOME   &kp PAGE_UP        &kp PAGE_DOWN  &kp END     &kp BACKSPACE
+&kp LEFT_SHIFT    &kp N0     &kp N4  &kp N5          &kp N6           &kp LC(C)     &mmv MOVE_X(-400)  &kp PLUS             &kp LEFT   &kp DOWN           &kp UP         &kp RIGHT   &kp RET
+&kp LALT          &kp DOT    &kp N7  &kp N8          &kp N9           &kp LC(V)     &mmv MOVE_X(400)   &kp MINUS            &kp TAB    &kp ENTER          &kp ESCAPE     &kp DELETE  &zFastLayer 7 SLASH
+&kp C_PLAY_PAUSE  &none      &none   &kp LEFT_ARROW  &kp RIGHT_ARROW  &xEntertab    &none              &zFastLayer 6 ENTER  &kp SPACE  &zFastLayer 0 TAB  &none          &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
