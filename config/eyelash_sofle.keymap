@@ -894,7 +894,7 @@
             label = "mod l";
             bindings = <
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &alt_modlayer  &ctrl_modlayer  &gui_modlayer  &mo 8     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &none
 &trans  &kp LCTRL      &kp LSHFT       &kp LALT       &kp LGUI  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &mo 7
 &trans  &trans         &trans          &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -904,11 +904,11 @@
         l_modr {
             label = "mod r";
             bindings = <
-&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
-&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &mo 9      &trans
-&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
-&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 7
-&trans  &trans          &trans           &trans          &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
+&trans  &trans          &trans           &trans          &trans           &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
+&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &zHomeLayer 8 P  &trans    &trans  &trans  &trans    &trans    &trans     &mo 9      &trans
+&trans  &trans          &trans           &trans          &trans           &trans    &trans  &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans
+&trans  &trans          &trans           &trans          &trans           &trans    &trans  &trans  &trans    &trans    &trans     &trans     &mo 7
+&trans  &trans          &trans           &trans          &trans           &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
 
