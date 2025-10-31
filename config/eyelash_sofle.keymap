@@ -47,7 +47,11 @@
 // ------------------------------------------------------------------------------
 //				    testing
 // ------------------------------------------------------------------------------
-
+ scroll_arrows: scroll_arrows {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+        };
 
 
 
