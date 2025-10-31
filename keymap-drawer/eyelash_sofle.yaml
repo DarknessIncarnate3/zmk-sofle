@@ -120,10 +120,10 @@ layers:
   - {t: fkey, h: fkey}
   - {t: entry, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: F13, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
-  - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: nav}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
