@@ -686,7 +686,7 @@
 &to 0                           &none   &none   &zFast_Mod LEFT_CONTROL F13  &kp SPACE  &zFastLayer 4 ESCAPE    &none              &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFast_Mod LEFT_GUI F13  &none    &none
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         l_hrm {
