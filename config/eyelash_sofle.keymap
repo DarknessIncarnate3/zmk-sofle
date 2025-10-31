@@ -28,16 +28,7 @@
     trigger-period-ms = <16>;
 };
 
-/ {
-    scroll_encoder: scroll_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-        tap-ms = <100>;
-    };
-
-    #define COMBO_SYM_SETTINGS_COMMON    \
+ #define COMBO_SYM_SETTINGS_COMMON    \
     layers = <0 1 2 3>;    \
     timeout-ms = <15>;    \
     require-prior-idle-ms = <150>;    \
@@ -47,6 +38,17 @@
     timeout-ms = <15>;    \
     slow-release;    \
     require-prior-idle-ms = <150>;
+
+/ {
+    scroll_encoder: scroll_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+        tap-ms = <100>;
+    };
+
+   
 
     // ------------------------------------------------------------------------------
     //				   conditions
