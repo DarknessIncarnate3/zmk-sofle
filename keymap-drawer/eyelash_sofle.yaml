@@ -435,7 +435,7 @@ layers:
   - N
   - O
   - L
-  - F5
+  - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
