@@ -15,6 +15,7 @@
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
+
 #define DEFAULT 0
 #define NAV 6
 #define SYM 5
@@ -40,16 +41,18 @@
         tap-ms = <100>;
     };
 
-#define COMBO_SYM_SETTINGS_COMMON 
-    layers = <0 3 6 1>; 
-    timeout-ms = <30>; 
+    #define COMBO_SYM_SETTINGS_COMMON
+
+    layers = <0 3 6 1>;
+    timeout-ms = <30>;
     require-prior-idle-ms = <120>;
 
-#define COMBO_MOD_SETTINGS_COMMON 
-            layers = <7 0 4>; 
-            timeout-ms = <30>; 
-            slow-release; 
-            require-prior-idle-ms = <120>;
+    #define COMBO_MOD_SETTINGS_COMMON
+
+    layers = <7 0 4>;
+    timeout-ms = <30>;
+    slow-release;
+    require-prior-idle-ms = <120>;
 
     // ------------------------------------------------------------------------------
     //				   conditions
@@ -732,11 +735,11 @@
         l_game {
             display-name = "game";
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4        &kp N5       &kp UP     &kp N6               &kp N7                       &kp N8                    &kp N9   &kp N0        &kp BSPC
-&kp TAB           &kp Q   &kp W      &kp F      &kp P         &kp G        &kp DOWN   &kp J                &kp L                        &kp U                     &kp Y    &kp SEMI      &kp BSLH
-&kp LEFT_CONTROL  &kp A   &kp R      &kp S      &kp T         &kp D        &kp LEFT   &kp H                &kp N                        &kp E                     &kp I    &kp O         &kp SQT
-&kp LSHFT         &kp Z   &kp X      &kp C      &kp V         &kp B        &kp RIGHT  &kp K                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH      &zFastLayer 15 MINUS
-&kp C_MUTE        &mo 9   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp TILDE    &kp SPACE  &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 16 BACKSPACE  &none    &kp LEFT_GUI
+&kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4        &kp N5        &kp UP     &kp N6               &kp N7                       &kp N8                    &kp N9   &kp N0        &kp BSPC
+&kp TAB           &kp Q   &kp W      &kp F      &kp P         &kp G         &kp DOWN   &kp J                &kp L                        &kp U                     &kp Y    &kp SEMI      &kp BSLH
+&kp LEFT_CONTROL  &kp A   &kp R      &kp S      &kp T         &kp D         &kp LEFT   &kp H                &kp N                        &kp E                     &kp I    &kp O         &kp SQT
+&kp LSHFT         &kp Z   &kp X      &kp C      &kp V         &kp B         &kp RIGHT  &kp K                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH      &zFastLayer 15 MINUS
+&kp C_MUTE        &mo 9   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp ESCAPE    &kp SPACE  &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 16 BACKSPACE  &none    &kp LEFT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -745,11 +748,11 @@
         l_gameq {
             display-name = "game q";
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4        &kp N5       &kp UP     &kp N6               &kp N7                       &kp N8                    &kp N9   &kp N0        &kp BSPC
-&kp TAB           &kp Q   &kp W      &kp E      &kp R         &kp T        &kp DOWN   &kp Y                &kp U                        &kp I                     &kp O    &kp P         &kp BSLH
-&kp LEFT_CONTROL  &kp A   &kp S      &kp D      &kp F         &kp G        &kp LEFT   &kp H                &kp J                        &kp K                     &kp L    &kp SEMI      &kp SQT
-&kp LSHFT         &kp Z   &kp X      &kp C      &kp V         &kp B        &kp RIGHT  &kp N                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH      &zFastLayer 15 MINUS
-&kp C_MUTE        &mo 9   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp TILDE    &kp SPACE  &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 16 BACKSPACE  &none    &kp LEFT_GUI
+&kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4        &kp N5        &kp UP     &kp N6               &kp N7                       &kp N8                    &kp N9   &kp N0        &kp BSPC
+&kp TAB           &kp Q   &kp W      &kp E      &kp R         &kp T         &kp DOWN   &kp Y                &kp U                        &kp I                     &kp O    &kp P         &kp BSLH
+&kp LEFT_CONTROL  &kp A   &kp S      &kp D      &kp F         &kp G         &kp LEFT   &kp H                &kp J                        &kp K                     &kp L    &kp SEMI      &kp SQT
+&kp LSHFT         &kp Z   &kp X      &kp C      &kp V         &kp B         &kp RIGHT  &kp N                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH      &zFastLayer 15 MINUS
+&kp C_MUTE        &mo 9   &kp SPACE  &kp SPACE  &kp LEFT_ALT  &kp ESCAPE    &kp SPACE  &zFastLayer 6 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 16 BACKSPACE  &none    &kp LEFT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
