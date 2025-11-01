@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - {t: PRINTSCREEN, h: func}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - F
   - P
   - G
-  - $$mdi:arrow-down-bold$$
+  - {t: Meh+F14, h: nav}
   - J
   - L
   - U
@@ -33,7 +33,7 @@ layers:
   - S
   - T
   - D
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-tab-reverse$$', h: media}
   - H
   - N
   - E
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:keyboard-tab$$
   - K
   - M
   - {t: ',', s: <}
@@ -475,7 +475,7 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - Ctl+X
-  - '&mmv MOVE_Y(400)'
+  - {t: '&mmv MOVE_Y(400)', type: held}
   - '*'
   - HOME
   - PG DN
@@ -515,7 +515,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', h: nav, type: held}
+  - {t: '$$mdi:keyboard-return$$', h: nav, type: held alternate}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: cole}
   - APP
@@ -1112,7 +1112,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAUSE BREAK
   - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1169,7 +1169,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   media:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1203,7 +1203,7 @@ layers:
   - $$mdi:skip-next$$
   - FAST FORWARD
   - PLAY PAUSE
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -1255,7 +1255,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - X
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
   - PG DN
@@ -1307,7 +1307,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bt_4'
-  - RGB SAI
+  - {t: RGB SAI, type: held alternate}
   - '&bl BL_INC'
   - '&bl BL_DEC'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1320,7 +1320,7 @@ layers:
   - {t: game q, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - '&bt_5'
-  - RGB SAD
+  - {t: RGB SAD, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1333,7 +1333,7 @@ layers:
   - {t: pcole, h: toggle}
   - {t: cole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB BRD
+  - {t: RGB BRD, type: held alternate}
   - '&yBacklight'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
