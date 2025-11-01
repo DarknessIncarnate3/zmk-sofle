@@ -306,7 +306,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - Gui+Sft+S
   - K
   - M
   - {t: ',', s: <}
