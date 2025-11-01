@@ -757,7 +757,7 @@
 &kp GRAVE  &kp F1           &kp F2  &kp F3           &kp F4           &kp F5             &trans  &trans  &trans    &trans     &trans     &trans     &trans
 &kp M      &kp KP_NUMBER_1  &trans  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &trans  &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
 &kp LCTRL  &trans           &trans  &trans           &kp KP_NUMBER_5  &kp KP_NUMBER_6    &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-&kp LSHFT  &kp I            &kp N   &kp O            &kp L            &kp F5             &trans  &trans  &trans    &trans     &trans     &trans     &to 20
+&kp LSHFT  &kp I            &kp N   &kp O            &kp L            &kp F10            &trans  &trans  &trans    &trans     &trans     &trans     &to 20
 &trans     &trans           &trans  &trans           &trans           &kp M              &trans  &trans  &trans    &trans     &trans     &trans
             >;
         };
