@@ -782,10 +782,10 @@
 &kp TAB            &kp PERCENT   &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN   &kp PLUS                      &kp LC(Z)  &kp PIPE             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp BSPC
 &kp DOUBLE_QUOTES  &kp CARET     &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &kp AT_SIGN                   &none      &kp EXCLAMATION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
 &none              &kp HASH      &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH      &kp GRAVE                     &none      &kp TILDE            &kp SLASH             &kp PERIOD             &kp COMMA  &kp QUESTION   &mo 20
-&kp ENTER          &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &zFast_Mod LEFT_META ENTER    &none      &zFastLayer 7 ENTER  &kp LEFT_SHIFT        &stickylayer 8 13      &none      &z2layer 11 2
+&kp C_MUTE         &kp LEFT_ALT  &kp LEFT_SHIFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &zFast_Mod LEFT_META ENTER    &none      &zFastLayer 7 ENTER  &kp LEFT_SHIFT        &stickylayer 8 13      &none      &z2layer 11 2
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         l_repeat {
