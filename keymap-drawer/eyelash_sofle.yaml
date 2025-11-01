@@ -315,7 +315,7 @@ layers:
   - {t: '-', h: fn, s: _}
   - $$mdi:volume-off$$
   - gsub
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$
