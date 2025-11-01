@@ -267,7 +267,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - {t: PRINTSCREEN, h: func}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -280,7 +280,7 @@ layers:
   - F
   - P
   - G
-  - $$mdi:arrow-down-bold$$
+  - {t: Meh+F14, h: nav}
   - J
   - L
   - U
