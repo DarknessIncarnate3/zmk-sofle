@@ -423,6 +423,13 @@
         keep-mods = <(MOD_LALT)>;
     };
 
+    yExt: yExt {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YEXT";
+        #binding-cells = <0>;
+        bindings = <&ext_power EP_ON>, <&ext_power EP_OFF>;
+    };
+
     // ------------------------------------------------------------------------------
     //				     combos
     // ------------------------------------------------------------------------------
@@ -917,7 +924,7 @@
             display-name = "fn";
             bindings = <
 &bt_0            &none  &none  &none  &none   &bt_4       &rgb_ug RGB_SAI  &bl BL_INC            &bl BL_DEC            &none   &none  &none          &bt BT_CLR
-&bt_1            &none  &to 4  &to 5  &none   &bt_5       &rgb_ug RGB_SAD  &none                 &none                 &none   &none  &none          &none
+&bt_1            &none  &to 4  &to 5  &none   &bt_5       &rgb_ug RGB_SAD  &yExt                 &none                 &none   &none  &none          &none
 &bt_2            &to 0  &to 1  &to 2  &to 0   &none       &rgb_ug RGB_BRD  &yBacklight           &none                 &none   &none  &none          &to 0
 &bt_3            &none  &none  &none  &to 19  &yOutput    &rgb_ug RGB_BRI  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none   &none  &none          &to 20
 &rgb_ug RGB_TOG  &none  &none  &none  &none   &none       &yColour         &none                 &none                 &to 18  &none  &z2layer 11 2
