@@ -600,7 +600,7 @@
         };
 
         slash {
-             COMBO_SYM_SETTINGS_COMMON
+            COMBO_SYM_SETTINGS_COMMON
             bindings = <&kp BACKSLASH>;
             key-positions = <47 48>;
         };
@@ -706,10 +706,10 @@
 &kp TAB                    &zHome_alt 0 Q              &zHome_ctrl 0 W           &zHome_gui 0 F          &zHomeLayer 10 P        &kp G                   &mmv MOVE_Y(400)   &kp J                &kp L                        &kp U                     &zHomeLayer 13 Y          &kp SEMI                    &kp BACKSPACE
 &xF4                       &zhomemod_l LEFT_CONTROL A  &zhomemod_l LEFT_SHIFT R  &zhomemod_l LEFT_ALT S  &zhomemod_l LEFT_GUI T  &kp D                   &mmv MOVE_X(-400)  &kp H                &zhomemod_r LEFT_GUI N       &zhomemod_r LEFT_ALT E    &zhomemod_r LEFT_SHIFT I  &zhomemod_r LEFT_CONTROL O  &kp APOS
 &zFast_Mod LEFT_ALT EQUAL  &zHomeLayer 9 Z             &zhomelayer_l 8 X         &zhomelayer_l 7 C       &kp V                   &kp B                   &mmv MOVE_X(400)   &kp K                &kp M                        &kp COMMA                 &kp DOT                   &zHomeLayer 9 SLASH         &zFastLayer 20 MINUS
-&to 0                      &kp LEFT_SHIFT              &kp LEFT_GUI              &xTabModl               &xTabSpace              &zFastLayer 8 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 12 BACKSPACE  &mo 10                    &zFastLayer 17 BACKSLASH
+&kp C_BRIGHTNESS_MAXIMUM   &kp LEFT_SHIFT              &kp LEFT_GUI              &xTabModl               &xTabSpace              &zFastLayer 8 ESCAPE    &none              &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 12 BACKSPACE  &mo 10                    &zFastLayer 17 BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         l_pcole {
