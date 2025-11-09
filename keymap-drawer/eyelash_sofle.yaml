@@ -1322,7 +1322,7 @@ layers:
   - '&bt_5'
   - {t: RGB SAD, type: held alternate}
   - '&yExt'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
