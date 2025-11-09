@@ -482,13 +482,13 @@
         meta {
             COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_GUI>;
-            key-positions = <7 8>;
+            key-positions = <20 21>;
         };
 
         meta2 {
             COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_GUI>;
-            key-positions = <5 4>;
+            key-positions = <18 17>;
         };
 
         hash {
@@ -597,6 +597,11 @@
             COMBO_MOD_SETTINGS_COMMON
             bindings = <&kp LEFT_ALT>;
             key-positions = <44 43>;
+        };
+
+        slash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <47 48>;
         };
     };
 
