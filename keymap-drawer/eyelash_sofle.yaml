@@ -768,7 +768,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - fn
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BRIGHTNESS AUTO
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
