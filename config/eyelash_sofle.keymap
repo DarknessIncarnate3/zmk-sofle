@@ -600,6 +600,7 @@
         };
 
         slash {
+             COMBO_SYM_SETTINGS_COMMON
             bindings = <&kp BACKSLASH>;
             key-positions = <47 48>;
         };
