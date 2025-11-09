@@ -744,7 +744,7 @@
 &kp TAB           &kp Q   &kp W           &kp F      &kp P         &kp G                   &zFastLayer 7 LS(LA(LC(F14)))  &kp J                &kp L                        &kp U                     &kp Y    &kp SEMI      &kp BSLH
 &kp LEFT_CONTROL  &kp A   &kp R           &kp S      &kp T         &kp D                   &kp LEFT                       &kp H                &kp N                        &kp E                     &kp I    &kp O         &kp SQT
 &kp LSHFT         &kp Z   &kp X           &kp C      &kp V         &kp B                   &kp LG(RS(S))                  &kp K                &kp M                        &kp COMMA                 &kp DOT  &kp FSLH      &zFastLayer 20 MINUS
-&kp C_MUTE        &mo 6   &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT  &zFastLayer 7 ESCAPE    &kp SPACE                      &zFastLayer 7 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 12 BACKSPACE  &none    &kp LEFT_GUI
+&kp C_MUTE        &mo 6   &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT  &zFastLayer 7 ESCAPE    &kp SPACE                      &zFastLayer 8 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 12 BACKSPACE  &none    &kp LEFT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
