@@ -118,7 +118,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, h: repeat, s: '?'}
   - {t: '-', h: fn, s: _}
-  - {t: cole, h: toggle}
+  - BRIGHTNESS MAXIMUM
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: F13, h: mod l, s: '$$mdi:keyboard-tab-reverse$$'}
