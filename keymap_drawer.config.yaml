@@ -95,7 +95,21 @@ draw_config:
     .combo.sym_by_sym.hold > path[stroke="none"][fill="none"] {
       visibility: hidden;
     }
-
+svg_style_dark: str = Field(
+        exclude=True,
+        default=dedent(
+            """\
+            svg.keymap { fill: #d1d6db; }
+            rect.key { fill: #3f4750; }
+            rect.key, rect.combo { stroke: #60666c; }
+            rect.combo, rect.combo-separate { fill: #1f3d7a; }
+            rect.held, rect.combo.held { fill: #854747; }
+            text.label, text.footer { stroke: black; }
+            text.trans { fill: #7e8184; }
+            path.combo { stroke: #7f7f7f; }
+            """
+        ),
+    )
   shrink_wide_legends: 6
   glyph_tap_size: 18
   glyph_hold_size: 15
