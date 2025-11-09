@@ -828,12 +828,14 @@
         l_modl {
             display-name = "mod l";
             bindings = <
-&trans  &trans          &trans           &trans          &trans    &trans         &trans  &trans  &trans  &trans  &trans  &trans                    &trans
-&trans  &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &mo 10    &trans         &trans  &trans  &trans  &trans  &trans  &zFastLayer 13 SEMICOLON  &trans
-&trans  &kp LCTRL       &kp LSHFT        &kp LALT        &kp LGUI  &key_repeat    &trans  &trans  &trans  &trans  &trans  &trans                    &trans
-&trans  &trans          &trans           &trans          &trans    &trans         &trans  &trans  &trans  &trans  &trans  &trans                    &mo 20
-&trans  &trans          &trans           &trans          &trans    &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans                 &trans          &trans           &trans          &trans    &trans         &trans  &trans  &trans  &trans  &trans  &trans                    &trans
+&trans                 &zHome_alt 0 Q  &zHome_ctrl 0 W  &zHome_gui 0 F  &mo 10    &trans         &trans  &trans  &trans  &trans  &trans  &zFastLayer 13 SEMICOLON  &trans
+&trans                 &kp LCTRL       &kp LSHFT        &kp LALT        &kp LGUI  &key_repeat    &trans  &trans  &trans  &trans  &trans  &trans                    &trans
+&trans                 &trans          &trans           &trans          &trans    &trans         &trans  &trans  &trans  &trans  &trans  &trans                    &mo 20
+&kp C_BRIGHTNESS_AUTO  &trans          &trans           &trans          &trans    &trans         &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         l_modr {
