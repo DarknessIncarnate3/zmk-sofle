@@ -8,10 +8,6 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
-  projects:
-    - name: crystal-peripheral-display
-      remote: gpeye
-      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: main
